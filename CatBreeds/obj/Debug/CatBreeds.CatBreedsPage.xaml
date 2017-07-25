@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:CatBreeds" x:Class="CatBreeds.CatBreedsPage">
+    <ContentPage.Content>
+        
+        <StackLayout Margin="20" Orientation="Vertical">
+            <Button x:Name="lalala" Text="lalala" Clicked="OnButtonClicked" />
+            
+            <Button Text="Take Photo and Analyze" Clicked="loadCamera" />
+            <Image x:Name="photo" />
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

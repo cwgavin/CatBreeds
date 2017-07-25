@@ -1,0 +1,16 @@
+/Users/gavincheng/Projects/CatBreeds/iOS/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/gavincheng/Projects/CatBreeds/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/actool/_PartialAppManifest.items
+/Users/gavincheng/Projects/CatBreeds/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/actool/_BundleResourceWithLogicalName.items
+/Users/gavincheng/Projects/CatBreeds/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/optimized/
+/Users/gavincheng/Projects/CatBreeds/iOS/bin/iPhone/Debug/CatBreeds.iOS.pdb
+/Users/gavincheng/Projects/CatBreeds/iOS/bin/iPhone/Debug/CatBreeds.iOS.exe
+/Users/gavincheng/Projects/CatBreeds/iOS/obj/iPhone/Debug/CatBreeds.iOS.exe
+/Users/gavincheng/Projects/CatBreeds/iOS/obj/iPhone/Debug/CatBreeds.iOS.pdb
+/Users/gavincheng/Projects/CatBreeds/iOS/bin/iPhone/Debug/Xamarin.Forms.Core.dll
+/Users/gavincheng/Projects/CatBreeds/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.dll
+/Users/gavincheng/Projects/CatBreeds/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/gavincheng/Projects/CatBreeds/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
+/Users/gavincheng/Projects/CatBreeds/iOS/bin/iPhone/Debug/Plugin.Media.Abstractions.dll
+/Users/gavincheng/Projects/CatBreeds/iOS/bin/iPhone/Debug/Plugin.Media.dll
+/Users/gavincheng/Projects/CatBreeds/iOS/bin/iPhone/Debug/CatBreeds.dll
+/Users/gavincheng/Projects/CatBreeds/iOS/bin/iPhone/Debug/CatBreeds.pdb
