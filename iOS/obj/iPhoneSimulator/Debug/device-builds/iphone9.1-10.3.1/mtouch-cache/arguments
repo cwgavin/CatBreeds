@@ -23,15 +23,35 @@
 	-r \
 	/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/CatBreeds.dll \
 	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Microsoft.Azure.Mobile.Client.3.1.0/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Microsoft.Azure.Mobile.Client.3.1.0/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Newtonsoft.Json.6.0.4/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Xam.Plugin.Geolocator.4.0.1/lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Xam.Plugin.Geolocator.4.0.1/lib/Xamarin.iOS10/Plugin.Geolocator.dll \
 	-r \
 	/Users/gavincheng/Projects/CatBreeds/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
 	-r \
 	/Users/gavincheng/Projects/CatBreeds/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.dll \
 	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.Http.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Microsoft.Net.Http.2.2.29/lib/Xamarin.iOS10/System.Net.Http.Extensions.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Microsoft.Net.Http.2.2.29/lib/Xamarin.iOS10/System.Net.Http.Primitives.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r \
@@ -313,9 +333,27 @@
 	-r \
 	/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/CatBreeds.dll \
 	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Microsoft.Azure.Mobile.Client.3.1.0/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Microsoft.Azure.Mobile.Client.3.1.0/lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Newtonsoft.Json.6.0.4/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Xam.Plugin.Geolocator.4.0.1/lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Xam.Plugin.Geolocator.4.0.1/lib/Xamarin.iOS10/Plugin.Geolocator.dll \
+	-r \
 	/Users/gavincheng/Projects/CatBreeds/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
 	-r \
 	/Users/gavincheng/Projects/CatBreeds/packages/Xam.Plugin.Media.3.0.1/lib/Xamarin.iOS10/Plugin.Media.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Plugin.Permissions.2.0.1/lib/Xamarin.iOS10/Plugin.Permissions.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Microsoft.Net.Http.2.2.29/lib/Xamarin.iOS10/System.Net.Http.Extensions.dll \
+	-r \
+	/Users/gavincheng/Projects/CatBreeds/packages/Microsoft.Net.Http.2.2.29/lib/Xamarin.iOS10/System.Net.Http.Primitives.dll \
 	-r \
 	/Users/gavincheng/Projects/CatBreeds/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \

@@ -752,7 +752,7 @@ bl _p_11
 .word 0xf94063a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9410830
+.word 0xf9410c30
 .word 0xd63f0200
 .word 0xf9005fa0
 .word 0xf9402bb1
@@ -871,7 +871,7 @@ bl _p_16
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x15, [x16, #400]
-.word 0x928010f0
+.word 0x92800cf0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -906,7 +906,7 @@ ldr x15, [x16, #400]
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x15, [x16, #408]
-.word 0x928001f0
+.word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -1389,9 +1389,9 @@ bl _p_18
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1582,9 +1582,9 @@ bl _p_26
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1607,9 +1607,9 @@ bl _p_27
 .word 0xf940fa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1719,9 +1719,9 @@ bl _p_30
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1819,9 +1819,9 @@ bl _p_31
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -1844,9 +1844,9 @@ bl _p_27
 .word 0xf940fa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -2244,7 +2244,7 @@ bl _p_15
 .word 0xf9407fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9424c50
+.word 0xf9425050
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf9416231
@@ -2259,7 +2259,7 @@ bl _p_15
 .word 0xaa0203e0
 .word 0xaa1803e1
 .word 0xf9400042
-.word 0xf9424850
+.word 0xf9424c50
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf9419e31
@@ -2299,7 +2299,7 @@ bl _p_40
 .word 0xf9407ba1
 .word 0xaa1603e0
 .word 0xf94002c2
-.word 0xf9425c50
+.word 0xf9426050
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf9423e31
@@ -2398,7 +2398,7 @@ bl _p_43
 .word 0xb980c3a1
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9426450
+.word 0xf9426850
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf943c231
@@ -2499,7 +2499,7 @@ ldr x1, [x16, #584]
 .word 0xf9406fa0
 .word 0xf9406fa2
 .word 0xf9400042
-.word 0xf9425850
+.word 0xf9425c50
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf9454e31
@@ -2536,7 +2536,7 @@ bl _p_17
 .word 0xaa1603e0
 .word 0xd2800001
 .word 0xf94002c2
-.word 0xf9426050
+.word 0xf9426450
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf945de31
@@ -2593,7 +2593,7 @@ ldr x1, [x16, #592]
 .word 0xaa1603e0
 .word 0xd2800021
 .word 0xf94002c2
-.word 0xf9426050
+.word 0xf9426450
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf946ba31
@@ -2624,7 +2624,7 @@ bl _p_46
 .word 0xf9407fa1
 .word 0xaa1603e0
 .word 0xf94002c2
-.word 0xf9424050
+.word 0xf9424450
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf9473631
@@ -2661,7 +2661,7 @@ bl _p_48
 .word 0xfd408ba0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf9424430
+.word 0xf9424830
 .word 0xd63f0200
 .word 0xf94033b1
 .word 0xf947ca31
@@ -2753,7 +2753,7 @@ bl _p_11
 .word 0xf9405ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf90057a0
 .word 0xf9403bb1
@@ -2795,7 +2795,7 @@ bl _p_3
 .word 0xaa1503e0
 .word 0xaa1503e0
 .word 0xf94002a1
-.word 0xf9424430
+.word 0xf9424c30
 .word 0xd63f0200
 .word 0xfd005fa0
 .word 0xf9403bb1
@@ -2826,7 +2826,7 @@ bl _p_49
 .word 0xaa1503e0
 .word 0xaa1503e0
 .word 0xf94002a1
-.word 0xf9424c30
+.word 0xf9425430
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9403bb1
@@ -2858,7 +2858,7 @@ bl _p_11
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9410030
+.word 0xf9410430
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9403bb1
@@ -3062,7 +3062,7 @@ bl _p_3
 .word 0xaa1503e0
 .word 0xaa1503e0
 .word 0xf94002a1
-.word 0xf9424c30
+.word 0xf9425430
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9403bb1
@@ -3083,7 +3083,7 @@ bl _p_3
 .word 0xaa1603e0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf9415c30
+.word 0xf9416030
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9403bb1
@@ -3103,7 +3103,7 @@ bl _p_3
 .word 0xaa1603e0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf9415c30
+.word 0xf9416030
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9403bb1
@@ -3355,7 +3355,7 @@ bl _p_62
 .word 0xaa1303e0
 .word 0xd28000c1
 .word 0xf9400262
-.word 0xf9417c50
+.word 0xf9418050
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf949da31
@@ -3378,7 +3378,7 @@ bl _p_62
 .word 0xd2800022
 .word 0xd2800003
 .word 0xf94002c4
-.word 0xf941e490
+.word 0xf941e890
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf94a3631
@@ -3487,7 +3487,7 @@ bl _p_65
 .word 0xd2801200
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801f40
+.word 0xd2801f80
 .word 0xaa1103e1
 bl _p_9
 
@@ -3565,9 +3565,9 @@ ldr x16, [x16, #792]
 .word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -3717,7 +3717,7 @@ bl _p_66
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -3798,9 +3798,9 @@ ldr x0, [x16, #0]
 .word 0xd2807801
 bl _p_32
 .word 0xaa0003e1
-.word 0xd2802560
+.word 0xd28025a0
 .word 0xf2a04000
-.word 0xd2802560
+.word 0xd28025a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -3860,7 +3860,7 @@ bl _p_66
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e830
+.word 0xf940ec30
 .word 0xd63f0200
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -3941,9 +3941,9 @@ ldr x0, [x16, #0]
 .word 0xd280a1a1
 bl _p_32
 .word 0xaa0003e1
-.word 0xd2802560
+.word 0xd28025a0
 .word 0xf2a04000
-.word 0xd2802560
+.word 0xd28025a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -4064,7 +4064,7 @@ bl _p_70
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801f40
+.word 0xd2801f80
 .word 0xaa1103e1
 bl _p_9
 
@@ -4235,9 +4235,9 @@ bl _p_72
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -4282,7 +4282,7 @@ ldr x16, [x16, #888]
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9425430
+.word 0xf9425830
 .word 0xd63f0200
 .word 0xaa0003f9
 .word 0xf94013b1
@@ -4465,7 +4465,7 @@ bl _p_54
 .word 0xf94047a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f830
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf9420a31
@@ -4690,7 +4690,7 @@ ldr x16, [x16, #968]
 .word 0xf9401c01
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9413c30
+.word 0xf9414030
 .word 0xd63f0200
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -5033,7 +5033,7 @@ bl _p_85
 .word 0xaa0303e0
 .word 0xd2800002
 .word 0xf9400063
-.word 0xf9411470
+.word 0xf9411870
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9413a31
@@ -5193,7 +5193,7 @@ bl _p_87
 .word 0xf900c7a0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f830
+.word 0xf940fc30
 .word 0xd63f0200
 .word 0xf940c7be
 .word 0xfd0003c0
@@ -5242,7 +5242,7 @@ bl _p_87
 .word 0xf900c7a0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f830
+.word 0xf940fc30
 .word 0xd63f0200
 .word 0xf940c7be
 .word 0xfd0003c0
@@ -5339,7 +5339,7 @@ bl _p_54
 .word 0xf940eba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf900e7a0
 .word 0xf9401bb1
@@ -5370,7 +5370,7 @@ bl _p_54
 .word 0xf940e7a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf900cba0
 .word 0xf9401bb1
@@ -5418,7 +5418,7 @@ bl _p_93
 .word 0xf9401f21
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9418030
+.word 0xf9418430
 .word 0xd63f0200
 .word 0xf900e7a0
 .word 0xf9401bb1
@@ -5787,7 +5787,7 @@ bl _p_58
 .word 0xf940e7a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf900cba0
@@ -5814,7 +5814,7 @@ bl _p_58
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf9400042
-.word 0xf940f850
+.word 0xf9410050
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf94ae231
@@ -5899,7 +5899,7 @@ bl _p_99
 .word 0xd2800002
 .word 0xd2800023
 .word 0xf9400084
-.word 0xf940f490
+.word 0xf940f890
 .word 0xd63f0200
 .word 0xf9401bb1
 .word 0xf94c3631
@@ -5922,7 +5922,7 @@ bl _p_99
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801f40
+.word 0xd2801f80
 .word 0xaa1103e1
 bl _p_9
 
@@ -6085,7 +6085,7 @@ bl _p_58
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf9400042
-.word 0xf940f850
+.word 0xf9410050
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf941a231
@@ -6152,7 +6152,7 @@ bl _p_57
 .word 0xd2800021
 .word 0xaa1a03e2
 .word 0xf9400323
-.word 0xf9420470
+.word 0xf9420870
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf942ae31
@@ -6229,7 +6229,7 @@ bl _p_54
 .word 0xf9401fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940fc30
 .word 0xd63f0200
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -6250,7 +6250,7 @@ bl _p_76
 .word 0xf9401b41
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940e850
+.word 0xf940ec50
 .word 0xd63f0200
 .word 0xf9400fb1
 .word 0xf9410231
@@ -6325,7 +6325,7 @@ ldr x16, [x16, #1080]
 .word 0xf94017a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xaa0003f7
 .word 0xf9401bb1
@@ -6353,7 +6353,7 @@ ldr x1, [x16, #1088]
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf94002e1
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf9004fa0
 .word 0xf9401bb1
@@ -6437,7 +6437,7 @@ bl _p_100
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9401bb1
@@ -6498,7 +6498,7 @@ bl _p_62
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf9004fa0
 .word 0xf9401bb1
@@ -6529,7 +6529,7 @@ bl _p_102
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf9004fa0
 .word 0xf9401bb1
@@ -6581,7 +6581,7 @@ bl _p_103
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf9004fa0
 .word 0xf9401bb1
@@ -6664,7 +6664,7 @@ bl _p_61
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801f40
+.word 0xd2801f80
 .word 0xaa1103e1
 bl _p_9
 .word 0xd2801d40
@@ -6816,7 +6816,7 @@ ldr x0, [x16, #1104]
 .word 0xaa0203e0
 .word 0xaa1803e1
 .word 0xf9400042
-.word 0xf941cc50
+.word 0xf941d050
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf90033a0
@@ -6880,7 +6880,7 @@ ldr x16, [x16, #1112]
 .word 0xf9401f21
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941d030
+.word 0xf941d430
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf90033a0
@@ -7020,7 +7020,7 @@ ldr x0, [x16, #1120]
 .word 0xf9401f21
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941f430
+.word 0xf941f830
 .word 0xd63f0200
 .word 0xf9003ba0
 .word 0xf94023b1
@@ -7875,7 +7875,7 @@ bl _p_130
 .word 0xaa1603e0
 .word 0xaa1803e2
 .word 0xf94002c3
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9494231
@@ -8113,7 +8113,7 @@ bl _p_140
 .word 0xf940c7a1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf94037b1
@@ -8125,7 +8125,7 @@ bl _p_140
 .word 0xf940c3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf94037b1
 .word 0xf9436631
@@ -8177,7 +8177,7 @@ bl _p_142
 .word 0xf940c7a1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf94037b1
@@ -8189,7 +8189,7 @@ bl _p_142
 .word 0xf940c3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf94037b1
 .word 0xf9446631
@@ -8241,7 +8241,7 @@ bl _p_143
 .word 0xf940c7a1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf94037b1
@@ -8253,7 +8253,7 @@ bl _p_143
 .word 0xf940c3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf94037b1
 .word 0xf9456631
@@ -8291,7 +8291,7 @@ bl _p_144
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf9009ba0
 .word 0xf94037b1
@@ -8374,7 +8374,7 @@ bl _p_147
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf9008ba0
 .word 0xf94037b1
@@ -8457,7 +8457,7 @@ bl _p_130
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf9007ba0
 .word 0xf94037b1
@@ -8540,7 +8540,7 @@ bl _p_152
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf9006ba0
 .word 0xf94037b1
@@ -8623,7 +8623,7 @@ bl _p_155
 .word 0xf940bba1
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf9005ba0
 .word 0xf94037b1
@@ -8716,7 +8716,7 @@ bl _p_159
 .word 0xaa1603e0
 .word 0xd2800022
 .word 0xf94002c3
-.word 0xf9410470
+.word 0xf9410870
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf94037b1
@@ -10236,7 +10236,7 @@ ldr x16, [x16, #1504]
 .word 0xf9401b41
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940ec50
+.word 0xf940f050
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9408a31
@@ -10468,7 +10468,7 @@ ldr x16, [x16, #1536]
 .word 0xf94016e1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9003ba0
 .word 0xf9401fb1
@@ -10512,7 +10512,7 @@ ldr x16, [x16, #1536]
 .word 0xf94016e1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9401fb1
@@ -10562,7 +10562,7 @@ bl _p_97
 .word 0xf94016e1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9410030
+.word 0xf9410430
 .word 0xd63f0200
 .word 0xf9003fa0
 .word 0xf9401fb1
@@ -10669,9 +10669,9 @@ ldr x16, [x16, #1544]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -10712,9 +10712,9 @@ ldr x16, [x16, #1552]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -10757,9 +10757,9 @@ ldr x16, [x16, #1560]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -10941,7 +10941,7 @@ ldr x16, [x16, #1592]
 .word 0xf9401401
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -11145,7 +11145,7 @@ bl _p_185
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9008fa0
 .word 0xf9402bb1
@@ -11220,7 +11220,7 @@ bl _p_190
 .word 0xf9407ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf90077a0
 .word 0xf9402bb1
@@ -11244,7 +11244,7 @@ bl _p_190
 .word 0xf9004ba0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xf9404bbe
 .word 0xfd0003c0
@@ -11264,7 +11264,7 @@ bl _p_190
 .word 0xfd403fa2
 .word 0xfd4043a3
 .word 0xf9400042
-.word 0xf940e850
+.word 0xf940ec50
 .word 0xd63f0200
 .word 0xf9005fa0
 .word 0xf9402bb1
@@ -11283,7 +11283,7 @@ bl _p_190
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940f830
+.word 0xf940fc30
 .word 0xd63f0200
 .word 0xf90063a0
 .word 0xf9402bb1
@@ -11423,7 +11423,7 @@ ldr x16, [x16, #1632]
 .word 0xf9006fa0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xf9406fbe
 .word 0xfd0003c0
@@ -11642,7 +11642,7 @@ bl _p_98
 .word 0xfd402ba2
 .word 0xfd402fa3
 .word 0xf9400341
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf9441e31
@@ -11800,7 +11800,7 @@ bl _p_201
 .word 0xfd4037a2
 .word 0xfd403ba3
 .word 0xf9400021
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf941d631
@@ -11891,7 +11891,7 @@ ldr x16, [x16, #1648]
 .word 0xf9008ba0
 .word 0xaa1603e0
 .word 0xf94002c1
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xf9408bbe
 .word 0xfd0003c0
@@ -12076,7 +12076,7 @@ bl _p_204
 .word 0xfd4033a2
 .word 0xfd4037a3
 .word 0xf94002c1
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf943b231
@@ -12217,7 +12217,7 @@ bl _p_207
 .word 0xf94043a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xaa0003f5
 .word 0xf9402bb1
@@ -12270,7 +12270,7 @@ bl _p_209
 .word 0xaa1303e0
 .word 0xd2800021
 .word 0xf9400262
-.word 0xf940ec50
+.word 0xf940f050
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9424e31
@@ -12285,7 +12285,7 @@ bl _p_209
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf9400042
-.word 0xf940f050
+.word 0xf940f450
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9428a31
@@ -12300,7 +12300,7 @@ bl _p_209
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf9400042
-.word 0xf940f450
+.word 0xf940f850
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf942c631
@@ -12352,7 +12352,7 @@ ldr x0, [x16, #1728]
 .word 0xaa0403e0
 .word 0xaa1403e1
 .word 0xf9400084
-.word 0xf940e890
+.word 0xf940ec90
 .word 0xd63f0200
 .word 0x93407c00
 .word 0xf9402bb1
@@ -12679,7 +12679,7 @@ ldr x16, [x16, #1792]
 .word 0xf9400fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9424430
+.word 0xf9424c30
 .word 0xd63f0200
 .word 0xfd0023a0
 .word 0xf94013b1
@@ -12736,7 +12736,7 @@ ldr x16, [x16, #1800]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9424c30
+.word 0xf9425430
 .word 0xd63f0200
 .word 0xf90023a0
 .word 0xf94013b1
@@ -12752,7 +12752,7 @@ ldr x16, [x16, #1800]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9424430
+.word 0xf9424c30
 .word 0xd63f0200
 .word 0xfd0027a0
 .word 0xf94013b1
@@ -13058,7 +13058,7 @@ bl _p_215
 .word 0xf9407fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xaa0003f4
 .word 0xf9402fb1
@@ -13580,9 +13580,9 @@ bl _p_7
 .word 0xf94a1231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_3
@@ -13637,7 +13637,7 @@ bl _p_85
 .word 0xaa0303e0
 .word 0xd2800002
 .word 0xf9400063
-.word 0xf9411470
+.word 0xf9411870
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf94b0e31
@@ -14081,7 +14081,7 @@ bl _p_227
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xaa0003f8
 .word 0xf9402fb1
@@ -14124,7 +14124,7 @@ bl _p_228
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900dfa0
 .word 0xf9402fb1
@@ -14251,7 +14251,7 @@ bl _p_7
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9013fa0
 .word 0xf9402fb1
@@ -14275,7 +14275,7 @@ bl _p_7
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9013ba0
 .word 0xf9402fb1
@@ -14305,7 +14305,7 @@ bl _p_233
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf90133a0
 .word 0xf9402fb1
@@ -14552,7 +14552,7 @@ bl _p_238
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf90147a0
 .word 0xf9402fb1
@@ -14575,7 +14575,7 @@ bl _p_234
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf90143a0
 .word 0xf9402fb1
@@ -14813,7 +14813,7 @@ bl _p_242
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900bfa0
 .word 0xf9402fb1
@@ -14935,7 +14935,7 @@ bl _p_147
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900d3a0
 .word 0xf9402fb1
@@ -14984,7 +14984,7 @@ bl _p_140
 .word 0xf94147a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf90137a0
 .word 0xf9402fb1
@@ -15025,7 +15025,7 @@ bl _p_147
 .word 0xf94087a2
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9508a31
@@ -15113,7 +15113,7 @@ bl _p_246
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900afa0
 .word 0xf9402fb1
@@ -15297,7 +15297,7 @@ bl _p_131
 .word 0xaa0303e0
 .word 0xd2800022
 .word 0xf9400063
-.word 0xf9410470
+.word 0xf9410870
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9402fb1
@@ -15346,7 +15346,7 @@ bl _p_246
 .word 0xf9412fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf900b7a0
 .word 0xf9402fb1
@@ -15387,7 +15387,7 @@ ldr x1, [x16, #1968]
 .word 0xf9408fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf9012ba0
 .word 0xf9402fb1
@@ -15473,7 +15473,7 @@ bl _p_251
 .word 0xf94073a2
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf940f070
+.word 0xf940f470
 .word 0xd63f0200
 .word 0xf9012fa0
 .word 0xf9402fb1
@@ -15638,7 +15638,7 @@ bl _p_255
 .word 0xf94093a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf90133a0
 .word 0xf9402fb1
@@ -16138,7 +16138,7 @@ bl _p_262
 .word 0xf940a7a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf90067a0
 .word 0xf9402fb1
@@ -16248,7 +16248,7 @@ bl _p_230
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xf900a7a0
 .word 0xf9402fb1
@@ -16289,7 +16289,7 @@ bl _p_7
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f430
+.word 0xf940f830
 .word 0xd63f0200
 .word 0xf900a3a0
 .word 0xf9402fb1
@@ -16343,7 +16343,7 @@ bl _p_246
 .word 0xf940a7a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419c50
+.word 0xf941a050
 .word 0xd63f0200
 .word 0xf90077a0
 .word 0xf9402fb1
@@ -16382,7 +16382,7 @@ ldr x1, [x16, #1968]
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf94002e1
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf900a3a0
 .word 0xf9402fb1
@@ -16479,7 +16479,7 @@ bl _p_265
 .word 0xf940afa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940e850
+.word 0xf940ec50
 .word 0xd63f0200
 .word 0xf900a7a0
 .word 0xf9402fb1
@@ -16651,7 +16651,7 @@ bl _p_255
 .word 0xaa0103e0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940fc30
+.word 0xf9410030
 .word 0xd63f0200
 .word 0xf900aba0
 .word 0xf9402fb1
@@ -17161,7 +17161,7 @@ bl _p_67
 .word 0xf940e3a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf942be31
@@ -17274,7 +17274,7 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf9447e31
@@ -17384,7 +17384,7 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf9463231
@@ -17494,7 +17494,7 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf947e631
@@ -17604,7 +17604,7 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf9499a31
@@ -17713,7 +17713,7 @@ bl _p_272
 .word 0xaa1503e1
 .word 0xaa1603e2
 .word 0xf9400283
-.word 0xf9419870
+.word 0xf9419c70
 .word 0xd63f0200
 .word 0xf9403bb1
 .word 0xf94b4a31
@@ -18130,8 +18130,8 @@ ldr x16, [x16, #2216]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd294e8a0
-.word 0xd294e8a0
+.word 0xd294dca0
+.word 0xd294dca0
 bl _p_281
 .word 0xaa0003e1
 .word 0xd2801d60
@@ -19238,140 +19238,6 @@ bl _p_9
 Lme_7a:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
-wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2328]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800019
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_3
-.word 0xf94037a0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9101a340
-.word 0xf9403740
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xb50003c0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91008340
-.word 0xf9401340
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb40001a0
-.word 0xaa1503e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b41
-.word 0xaa1503e0
-.word 0xd63f0020
-.word 0x14000032
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b40
-.word 0xd63f0000
-.word 0x14000028
-.word 0xaa1703e0
-.word 0xb9801ae0
-.word 0xaa0003f8
-.word 0xd2800019
-.word 0xaa1703e0
-.word 0xaa1903e0
-.word 0x93407f20
-.word 0xb9801ae1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000509
-.word 0xd37df000
-.word 0x8b0002e0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f6
-.word 0xaa1603e1
-.word 0xaa0103e0
-.word 0xf9003fa1
-.word 0xf9400c30
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf9403fa0
-.word 0xf9003ba1
-.word 0xf9402bb1
-.word 0xf9419231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xaa0003f4
-.word 0xaa1903e0
-.word 0x11000720
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0xaa1803e1
-.word 0x6b18001f
-.word 0x54fffc0b
-.word 0xaa1403e0
-.word 0xaa1403e0
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801c80
-.word 0xaa1103e1
-bl _p_9
-
-Lme_7b:
-.text
-	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
 wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object:
 .word 0xa9b77bfd
@@ -19385,7 +19251,7 @@ wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2328]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -19505,6 +19371,140 @@ bl _p_3
 .word 0xa9446bb9
 .word 0x910003bf
 .word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801c80
+.word 0xaa1103e1
+bl _p_9
+
+Lme_7b:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2336]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2184]
+.word 0xb9400000
+.word 0x34000140
+bl _p_278
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_3
+.word 0xf94037a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9101a340
+.word 0xf9403740
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xb50003c0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91008340
+.word 0xf9401340
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb40001a0
+.word 0xaa1503e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b41
+.word 0xaa1503e0
+.word 0xd63f0020
+.word 0x14000032
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b40
+.word 0xd63f0000
+.word 0x14000028
+.word 0xaa1703e0
+.word 0xb9801ae0
+.word 0xaa0003f8
+.word 0xd2800019
+.word 0xaa1703e0
+.word 0xaa1903e0
+.word 0x93407f20
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000509
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f6
+.word 0xaa1603e1
+.word 0xaa0103e0
+.word 0xf9003fa1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf9403fa0
+.word 0xf9003ba1
+.word 0xf9402bb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003f4
+.word 0xaa1903e0
+.word 0x11000720
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0xaa1803e1
+.word 0x6b18001f
+.word 0x54fffc0b
+.word 0xaa1403e0
+.word 0xaa1403e0
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
 .word 0xd65f03c0
 .word 0xd2801c80
 .word 0xaa1103e1
@@ -20069,140 +20069,6 @@ bl _p_9
 Lme_80:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
-wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2376]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800019
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_3
-.word 0xf94037a0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9101a340
-.word 0xf9403740
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xb50003c0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91008340
-.word 0xf9401340
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb40001a0
-.word 0xaa1503e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b41
-.word 0xaa1503e0
-.word 0xd63f0020
-.word 0x14000032
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b40
-.word 0xd63f0000
-.word 0x14000028
-.word 0xaa1703e0
-.word 0xb9801ae0
-.word 0xaa0003f8
-.word 0xd2800019
-.word 0xaa1703e0
-.word 0xaa1903e0
-.word 0x93407f20
-.word 0xb9801ae1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000509
-.word 0xd37df000
-.word 0x8b0002e0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f6
-.word 0xaa1603e1
-.word 0xaa0103e0
-.word 0xf9003fa1
-.word 0xf9400c30
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf9403fa0
-.word 0xf9003ba1
-.word 0xf9402bb1
-.word 0xf9419231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xaa0003f4
-.word 0xaa1903e0
-.word 0x11000720
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0xaa1803e1
-.word 0x6b18001f
-.word 0x54fffc0b
-.word 0xaa1403e0
-.word 0xaa1403e0
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801c80
-.word 0xaa1103e1
-bl _p_9
-
-Lme_81:
-.text
-	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object:
 .word 0xa9b77bfd
@@ -20216,7 +20082,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2376]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -20336,6 +20202,140 @@ bl _p_3
 .word 0xa9446bb9
 .word 0x910003bf
 .word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801c80
+.word 0xaa1103e1
+bl _p_9
+
+Lme_81:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2384]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2184]
+.word 0xb9400000
+.word 0x34000140
+bl _p_278
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_3
+.word 0xf94037a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9101a340
+.word 0xf9403740
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xb50003c0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91008340
+.word 0xf9401340
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb40001a0
+.word 0xaa1503e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b41
+.word 0xaa1503e0
+.word 0xd63f0020
+.word 0x14000032
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b40
+.word 0xd63f0000
+.word 0x14000028
+.word 0xaa1703e0
+.word 0xb9801ae0
+.word 0xaa0003f8
+.word 0xd2800019
+.word 0xaa1703e0
+.word 0xaa1903e0
+.word 0x93407f20
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000509
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f6
+.word 0xaa1603e1
+.word 0xaa0103e0
+.word 0xf9003fa1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf9403fa0
+.word 0xf9003ba1
+.word 0xf9402bb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003f4
+.word 0xaa1903e0
+.word 0x11000720
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0xaa1803e1
+.word 0x6b18001f
+.word 0x54fffc0b
+.word 0xaa1403e0
+.word 0xaa1403e0
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
 .word 0xd65f03c0
 .word 0xd2801c80
 .word 0xaa1103e1
@@ -21316,8 +21316,8 @@ ldr x16, [x16, #2456]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd294e8a0
-.word 0xd294e8a0
+.word 0xd294dca0
+.word 0xd294dca0
 bl _p_281
 .word 0xaa0003e1
 .word 0xd2801d60
@@ -22183,8 +22183,8 @@ ldr x16, [x16, #2568]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd294e8a0
-.word 0xd294e8a0
+.word 0xd294dca0
+.word 0xd294dca0
 bl _p_281
 .word 0xaa0003e1
 .word 0xd2801d60
@@ -22857,140 +22857,6 @@ bl _p_9
 Lme_9e:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
-wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2648]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800019
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Plugin_Media_got@PAGE+0
-add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x0, [x16, #2184]
-.word 0xb9400000
-.word 0x34000140
-bl _p_278
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_3
-.word 0xf94037a0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9101a340
-.word 0xf9403740
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xb50003c0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91008340
-.word 0xf9401340
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb40001a0
-.word 0xaa1503e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b41
-.word 0xaa1503e0
-.word 0xd63f0020
-.word 0x14000032
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b40
-.word 0xd63f0000
-.word 0x14000028
-.word 0xaa1703e0
-.word 0xb9801ae0
-.word 0xaa0003f8
-.word 0xd2800019
-.word 0xaa1703e0
-.word 0xaa1903e0
-.word 0x93407f20
-.word 0xb9801ae1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000509
-.word 0xd37df000
-.word 0x8b0002e0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f6
-.word 0xaa1603e1
-.word 0xaa0103e0
-.word 0xf9003fa1
-.word 0xf9400c30
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf9403fa0
-.word 0xf9003ba1
-.word 0xf9402bb1
-.word 0xf9419231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xaa0003f4
-.word 0xaa1903e0
-.word 0x11000720
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0xaa1803e1
-.word 0x6b18001f
-.word 0x54fffc0b
-.word 0xaa1403e0
-.word 0xaa1403e0
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801c80
-.word 0xaa1103e1
-bl _p_9
-
-Lme_9f:
-.text
-	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
 wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object:
 .word 0xa9b77bfd
@@ -23004,7 +22870,7 @@ wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_o
 
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2648]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -23124,6 +22990,140 @@ bl _p_3
 .word 0xa9446bb9
 .word 0x910003bf
 .word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801c80
+.word 0xaa1103e1
+bl _p_9
+
+Lme_9f:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x16, [x16, #2656]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Plugin_Media_got@PAGE+0
+add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
+ldr x0, [x16, #2184]
+.word 0xb9400000
+.word 0x34000140
+bl _p_278
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_3
+.word 0xf94037a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9101a340
+.word 0xf9403740
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xb50003c0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91008340
+.word 0xf9401340
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb40001a0
+.word 0xaa1503e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b41
+.word 0xaa1503e0
+.word 0xd63f0020
+.word 0x14000032
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b40
+.word 0xd63f0000
+.word 0x14000028
+.word 0xaa1703e0
+.word 0xb9801ae0
+.word 0xaa0003f8
+.word 0xd2800019
+.word 0xaa1703e0
+.word 0xaa1903e0
+.word 0x93407f20
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000509
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f6
+.word 0xaa1603e1
+.word 0xaa0103e0
+.word 0xf9003fa1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf9403fa0
+.word 0xf9003ba1
+.word 0xf9402bb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003f4
+.word 0xaa1903e0
+.word 0x11000720
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0xaa1803e1
+.word 0x6b18001f
+.word 0x54fffc0b
+.word 0xaa1403e0
+.word 0xaa1403e0
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
 .word 0xd65f03c0
 .word 0xd2801c80
 .word 0xaa1103e1
@@ -23822,8 +23822,8 @@ ldr x16, [x16, #2712]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd294e8a0
-.word 0xd294e8a0
+.word 0xd294dca0
+.word 0xd294dca0
 bl _p_281
 .word 0xaa0003e1
 .word 0xd2801d60
@@ -24770,9 +24770,9 @@ bl _mono_gsharedvt_value_copy
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2806420
+.word 0xd28055a0
 .word 0xf2a00040
-.word 0xd2806420
+.word 0xd28055a0
 .word 0xf2a00040
 bl _p_281
 .word 0xaa0003e1
@@ -24933,9 +24933,9 @@ bl _p_82
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2806420
+.word 0xd28055a0
 .word 0xf2a00040
-.word 0xd2806420
+.word 0xd28055a0
 .word 0xf2a00040
 bl _p_281
 .word 0xaa0003e1
@@ -25081,9 +25081,9 @@ bl _p_82
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2806420
+.word 0xd28055a0
 .word 0xf2a00040
-.word 0xd2806420
+.word 0xd28055a0
 .word 0xf2a00040
 bl _p_281
 .word 0xaa0003e1
@@ -26175,8 +26175,8 @@ bl _p_328
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #2944]
-.word 0xd2805ba1
-.word 0xd2805ba1
+.word 0xd2817381
+.word 0xd2817381
 bl _p_32
 bl _p_329
 .word 0xf9003ba0
@@ -26202,8 +26202,8 @@ bl _p_3
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x0, [x16, #2944]
-.word 0xd2806561
-.word 0xd2806561
+.word 0xd2817a01
+.word 0xd2817a01
 bl _p_32
 bl _p_329
 .word 0xf9003ba0
@@ -26412,13 +26412,13 @@ ldr x16, [x16, #2976]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29a5860
-.word 0xd29a5860
+.word 0xd29a4c60
+.word 0xd29a4c60
 bl _p_281
 .word 0xaa0003e1
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26460,13 +26460,13 @@ ldr x16, [x16, #2984]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29a5e60
-.word 0xd29a5e60
+.word 0xd29a5260
+.word 0xd29a5260
 bl _p_281
 .word 0xaa0003e1
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26508,13 +26508,13 @@ ldr x16, [x16, #2992]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29a5e60
-.word 0xd29a5e60
+.word 0xd29a5260
+.word 0xd29a5260
 bl _p_281
 .word 0xaa0003e1
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
-.word 0xd2801f20
+.word 0xd2801f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26579,8 +26579,8 @@ ldr x16, [x16, #3000]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29a65e0
-.word 0xd29a65e0
+.word 0xd29a59e0
+.word 0xd29a59e0
 bl _p_281
 bl _p_331
 .word 0xf90033a0
@@ -26589,9 +26589,9 @@ bl _p_331
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd28020c0
+.word 0xd2802100
 .word 0xf2a04000
-.word 0xd28020c0
+.word 0xd2802100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26765,8 +26765,8 @@ ldr x16, [x16, #3008]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2873740
-.word 0xd2873740
+.word 0xd2872b40
+.word 0xd2872b40
 bl _p_281
 .word 0xaa0003e1
 .word 0xd2801220
@@ -26798,8 +26798,8 @@ bl _p_3
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29a65e0
-.word 0xd29a65e0
+.word 0xd29a59e0
+.word 0xd29a59e0
 bl _p_281
 bl _p_331
 .word 0xf90073a0
@@ -26808,9 +26808,9 @@ bl _p_331
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a1
-.word 0xd28020c0
+.word 0xd2802100
 .word 0xf2a04000
-.word 0xd28020c0
+.word 0xd2802100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26880,8 +26880,8 @@ bl _p_3
 .word 0xf9424231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29a70e0
-.word 0xd29a70e0
+.word 0xd29a64e0
+.word 0xd29a64e0
 bl _p_281
 .word 0xaa0003e1
 .word 0xd2801200
@@ -26913,8 +26913,8 @@ bl _p_3
 .word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29a65e0
-.word 0xd29a65e0
+.word 0xd29a59e0
+.word 0xd29a59e0
 bl _p_281
 bl _p_331
 .word 0xf90073a0
@@ -26923,9 +26923,9 @@ bl _p_331
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a1
-.word 0xd28020c0
+.word 0xd2802100
 .word 0xf2a04000
-.word 0xd28020c0
+.word 0xd2802100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_3
@@ -26947,8 +26947,8 @@ bl _p_3
 .word 0xd2820880
 bl _p_281
 .word 0xf90073a0
-.word 0xd29a8940
-.word 0xd29a8940
+.word 0xd29a7d40
+.word 0xd29a7d40
 bl _p_281
 bl _p_331
 .word 0xf90077a0
@@ -28898,7 +28898,7 @@ ldr x16, [x16, #3272]
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x15, [x16, #3280]
-.word 0x928011f0
+.word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29142,7 +29142,7 @@ ldr x16, [x16, #3296]
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x15, [x16, #3280]
-.word 0x928011f0
+.word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29166,7 +29166,7 @@ ldr x15, [x16, #3280]
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x15, [x16, #3280]
-.word 0x928011f0
+.word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29417,7 +29417,7 @@ ldr x16, [x16, #3320]
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x15, [x16, #3280]
-.word 0x928011f0
+.word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29441,7 +29441,7 @@ ldr x15, [x16, #3280]
 adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x15, [x16, #3280]
-.word 0x928011f0
+.word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -29977,14 +29977,14 @@ bl method_addresses
 bl method_addresses
 bl method_addresses
 bl wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit_UIWindow
-bl wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
 bl wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
+bl wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
 bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_System_IAsyncResult
 bl wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 bl wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-bl wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 bl wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+bl wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
 bl wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -30013,8 +30013,8 @@ bl System_Nullable_1_int_GetValueOrDefault_int
 bl System_Nullable_1_int_ToString
 bl System_Nullable_1_int_Box_System_Nullable_1_int
 bl System_Nullable_1_int_Unbox_object
-bl wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
 bl wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
+bl wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
 bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_void_T_System_Threading_Tasks_Task_1_Foundation_NSUrl
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Foundation_NSUrl_invoke_TResult_T_System_IAsyncResult
 bl wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Foundation_NSUrl_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -30218,7 +30218,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 5420
+.word 5429
 	.no_dead_strip plt_Plugin_Media_CrossMedia_NotImplementedInReferenceAssembly
 plt_Plugin_Media_CrossMedia_NotImplementedInReferenceAssembly:
 _p_2:
@@ -30226,7 +30226,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 5431
+.word 5440
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_3:
@@ -30234,7 +30234,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 5433
+.word 5442
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_4:
@@ -30242,7 +30242,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 5461
+.word 5470
 	.no_dead_strip plt_Plugin_Media_MediaImplementation__ctor
 plt_Plugin_Media_MediaImplementation__ctor:
 _p_5:
@@ -30250,7 +30250,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 5469
+.word 5478
 	.no_dead_strip plt_System_NotImplementedException__ctor_string
 plt_System_NotImplementedException__ctor_string:
 _p_6:
@@ -30258,7 +30258,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 5471
+.word 5480
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
 plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
 _p_7:
@@ -30266,7 +30266,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 5476
+.word 5485
 	.no_dead_strip plt_System_Lazy_1_Plugin_Media_Abstractions_IMedia__ctor_System_Func_1_Plugin_Media_Abstractions_IMedia_System_Threading_LazyThreadSafetyMode
 plt_System_Lazy_1_Plugin_Media_Abstractions_IMedia__ctor_System_Func_1_Plugin_Media_Abstractions_IMedia_System_Threading_LazyThreadSafetyMode:
 _p_8:
@@ -30274,7 +30274,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 5483
+.word 5492
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_9:
@@ -30282,7 +30282,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 5494
+.word 5503
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_bool_bool
 plt_System_Threading_Tasks_Task_FromResult_bool_bool:
 _p_10:
@@ -30290,7 +30290,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 5529
+.word 5538
 	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
 plt_UIKit_UIApplication_get_SharedApplication:
 _p_11:
@@ -30298,7 +30298,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 5541
+.word 5550
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_set_StatusBarStyle_UIKit_UIStatusBarStyle
 plt_Plugin_Media_MediaImplementation_set_StatusBarStyle_UIKit_UIStatusBarStyle:
 _p_12:
@@ -30306,7 +30306,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 5546
+.word 5555
 	.no_dead_strip plt_UIKit_UIImagePickerController_IsCameraDeviceAvailable_UIKit_UIImagePickerControllerCameraDevice
 plt_UIKit_UIImagePickerController_IsCameraDeviceAvailable_UIKit_UIImagePickerControllerCameraDevice:
 _p_13:
@@ -30314,7 +30314,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 5548
+.word 5557
 	.no_dead_strip plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType
 plt_UIKit_UIImagePickerController_AvailableMediaTypes_UIKit_UIImagePickerControllerSourceType:
 _p_14:
@@ -30322,7 +30322,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 5553
+.word 5562
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_15:
@@ -30330,7 +30330,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 5558
+.word 5567
 	.no_dead_strip plt_System_Linq_Enumerable_Concat_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Linq_Enumerable_Concat_string_System_Collections_Generic_IEnumerable_1_string_System_Collections_Generic_IEnumerable_1_string:
 _p_16:
@@ -30338,7 +30338,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 5566
+.word 5575
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_17:
@@ -30346,7 +30346,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 5578
+.word 5587
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsPickPhotoSupported
 plt_Plugin_Media_MediaImplementation_get_IsPickPhotoSupported:
 _p_18:
@@ -30354,7 +30354,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 5583
+.word 5592
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_CheckPhotoUsageDescription
 plt_Plugin_Media_MediaImplementation_CheckPhotoUsageDescription:
 _p_19:
@@ -30362,7 +30362,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 5585
+.word 5594
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions__ctor
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions__ctor:
 _p_20:
@@ -30370,7 +30370,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 5587
+.word 5596
 	.no_dead_strip plt_Plugin_Media_Abstractions_PickMediaOptions_get_PhotoSize
 plt_Plugin_Media_Abstractions_PickMediaOptions_get_PhotoSize:
 _p_21:
@@ -30378,7 +30378,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 5592
+.word 5601
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_PhotoSize_Plugin_Media_Abstractions_PhotoSize
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_PhotoSize_Plugin_Media_Abstractions_PhotoSize:
 _p_22:
@@ -30386,7 +30386,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 5597
+.word 5606
 	.no_dead_strip plt_Plugin_Media_Abstractions_PickMediaOptions_get_CompressionQuality
 plt_Plugin_Media_Abstractions_PickMediaOptions_get_CompressionQuality:
 _p_23:
@@ -30394,7 +30394,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 5602
+.word 5611
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_CompressionQuality_int
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_set_CompressionQuality_int:
 _p_24:
@@ -30402,7 +30402,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 5607
+.word 5616
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions
 plt_Plugin_Media_MediaImplementation_GetMediaAsync_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions:
 _p_25:
@@ -30410,7 +30410,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 5612
+.word 5621
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsTakePhotoSupported
 plt_Plugin_Media_MediaImplementation_get_IsTakePhotoSupported:
 _p_26:
@@ -30418,7 +30418,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 5614
+.word 5623
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsCameraAvailable
 plt_Plugin_Media_MediaImplementation_get_IsCameraAvailable:
 _p_27:
@@ -30426,7 +30426,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 5616
+.word 5625
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_CheckCameraUsageDescription
 plt_Plugin_Media_MediaImplementation_CheckCameraUsageDescription:
 _p_28:
@@ -30434,7 +30434,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 5618
+.word 5627
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_VerifyCameraOptions_Plugin_Media_Abstractions_StoreCameraMediaOptions
 plt_Plugin_Media_MediaImplementation_VerifyCameraOptions_Plugin_Media_Abstractions_StoreCameraMediaOptions:
 _p_29:
@@ -30442,7 +30442,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 5620
+.word 5629
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsPickVideoSupported
 plt_Plugin_Media_MediaImplementation_get_IsPickVideoSupported:
 _p_30:
@@ -30450,7 +30450,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 5622
+.word 5631
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_IsTakeVideoSupported
 plt_Plugin_Media_MediaImplementation_get_IsTakeVideoSupported:
 _p_31:
@@ -30458,7 +30458,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 5624
+.word 5633
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_32:
@@ -30466,7 +30466,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 5626
+.word 5635
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Directory
 plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Directory:
 _p_33:
@@ -30474,7 +30474,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 5646
+.word 5655
 	.no_dead_strip plt_System_IO_Path_IsPathRooted_string
 plt_System_IO_Path_IsPathRooted_string:
 _p_34:
@@ -30482,7 +30482,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 5651
+.word 5660
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_VerifyOptions_Plugin_Media_Abstractions_StoreMediaOptions
 plt_Plugin_Media_MediaImplementation_VerifyOptions_Plugin_Media_Abstractions_StoreMediaOptions:
 _p_35:
@@ -30490,7 +30490,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 5656
+.word 5665
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_DefaultCamera
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_DefaultCamera:
 _p_36:
@@ -30498,7 +30498,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 5658
+.word 5667
 	.no_dead_strip plt_System_Enum_IsDefined_System_Type_object
 plt_System_Enum_IsDefined_System_Type_object:
 _p_37:
@@ -30506,7 +30506,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 5663
+.word 5672
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_38:
@@ -30514,7 +30514,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 5668
+.word 5677
 	.no_dead_strip plt_Plugin_Media_MediaPickerController__ctor_Plugin_Media_MediaPickerDelegate
 plt_Plugin_Media_MediaPickerController__ctor_Plugin_Media_MediaPickerDelegate:
 _p_39:
@@ -30522,7 +30522,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 5700
+.word 5709
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetUICameraDevice_Plugin_Media_Abstractions_CameraDevice
 plt_Plugin_Media_MediaImplementation_GetUICameraDevice_Plugin_Media_Abstractions_CameraDevice:
 _p_40:
@@ -30530,7 +30530,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 5702
+.word 5711
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_AllowCropping
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_AllowCropping:
 _p_41:
@@ -30538,7 +30538,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 5704
+.word 5713
 	.no_dead_strip plt_System_Nullable_1_bool_get_HasValue
 plt_System_Nullable_1_bool_get_HasValue:
 _p_42:
@@ -30546,7 +30546,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 5709
+.word 5718
 	.no_dead_strip plt_System_Nullable_1_bool_GetValueOrDefault
 plt_System_Nullable_1_bool_GetValueOrDefault:
 _p_43:
@@ -30554,7 +30554,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 5720
+.word 5729
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_OverlayViewProvider
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_OverlayViewProvider:
 _p_44:
@@ -30562,7 +30562,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 5731
+.word 5740
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreVideoOptions_get_Quality
 plt_Plugin_Media_Abstractions_StoreVideoOptions_get_Quality:
 _p_45:
@@ -30570,7 +30570,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 5736
+.word 5745
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_GetQuailty_Plugin_Media_Abstractions_VideoQuality
 plt_Plugin_Media_MediaImplementation_GetQuailty_Plugin_Media_Abstractions_VideoQuality:
 _p_46:
@@ -30578,7 +30578,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 5741
+.word 5750
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreVideoOptions_get_DesiredLength
 plt_Plugin_Media_Abstractions_StoreVideoOptions_get_DesiredLength:
 _p_47:
@@ -30586,7 +30586,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 5743
+.word 5752
 	.no_dead_strip plt_System_TimeSpan_get_TotalSeconds
 plt_System_TimeSpan_get_TotalSeconds:
 _p_48:
@@ -30594,7 +30594,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 5748
+.word 5757
 	.no_dead_strip plt_UIKit_UIWindowLevel_get_Normal
 plt_UIKit_UIWindowLevel_get_Normal:
 _p_49:
@@ -30602,7 +30602,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 5753
+.word 5762
 	.no_dead_strip plt_System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat
 plt_System_Linq_Enumerable_OrderByDescending_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat:
 _p_50:
@@ -30610,7 +30610,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 5758
+.word 5767
 	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool
 plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool:
 _p_51:
@@ -30618,7 +30618,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 5770
+.word 5779
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePickerControllerSourceType_Plugin_Media_Abstractions_StoreCameraMediaOptions
 plt_Plugin_Media_MediaPickerDelegate__ctor_UIKit_UIViewController_UIKit_UIImagePickerControllerSourceType_Plugin_Media_Abstractions_StoreCameraMediaOptions:
 _p_52:
@@ -30626,7 +30626,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 5782
+.word 5791
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_SetupController_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions
 plt_Plugin_Media_MediaImplementation_SetupController_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerControllerSourceType_string_Plugin_Media_Abstractions_StoreCameraMediaOptions:
 _p_53:
@@ -30634,7 +30634,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 5784
+.word 5793
 	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
 plt_UIKit_UIDevice_get_CurrentDevice:
 _p_54:
@@ -30642,7 +30642,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 5786
+.word 5795
 	.no_dead_strip plt_UIKit_UIDevice_get_UserInterfaceIdiom
 plt_UIKit_UIDevice_get_UserInterfaceIdiom:
 _p_55:
@@ -30650,7 +30650,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 5791
+.word 5800
 	.no_dead_strip plt_UIKit_UIPopoverController__ctor_UIKit_UIViewController
 plt_UIKit_UIPopoverController__ctor_UIKit_UIViewController:
 _p_56:
@@ -30658,7 +30658,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 5796
+.word 5805
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_set_Popover_UIKit_UIPopoverController
 plt_Plugin_Media_MediaPickerDelegate_set_Popover_UIKit_UIPopoverController:
 _p_57:
@@ -30666,7 +30666,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 5801
+.word 5810
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_Popover
 plt_Plugin_Media_MediaPickerDelegate_get_Popover:
 _p_58:
@@ -30674,7 +30674,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 5803
+.word 5812
 	.no_dead_strip plt_Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerController
 plt_Plugin_Media_MediaPickerPopoverDelegate__ctor_Plugin_Media_MediaPickerDelegate_UIKit_UIImagePickerController:
 _p_59:
@@ -30682,7 +30682,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 5805
+.word 5814
 	.no_dead_strip plt_UIKit_UIPopoverController_set_Delegate_UIKit_IUIPopoverControllerDelegate
 plt_UIKit_UIPopoverController_set_Delegate_UIKit_IUIPopoverControllerDelegate:
 _p_60:
@@ -30690,7 +30690,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 5807
+.word 5816
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_DisplayPopover_bool
 plt_Plugin_Media_MediaPickerDelegate_DisplayPopover_bool:
 _p_61:
@@ -30698,7 +30698,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 5812
+.word 5821
 	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
 plt_UIKit_UIDevice_CheckSystemVersion_int_int:
 _p_62:
@@ -30706,7 +30706,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 5814
+.word 5823
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_Task
 plt_Plugin_Media_MediaPickerDelegate_get_Task:
 _p_63:
@@ -30714,7 +30714,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 5819
+.word 5828
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_ContinueWith_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
 plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_ContinueWith_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Func_2_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
 _p_64:
@@ -30722,7 +30722,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 5821
+.word 5830
 	.no_dead_strip plt_System_Threading_Tasks_TaskExtensions_Unwrap_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile
 plt_System_Threading_Tasks_TaskExtensions_Unwrap_Plugin_Media_Abstractions_MediaFile_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile:
 _p_65:
@@ -30730,7 +30730,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 5833
+.word 5842
 	.no_dead_strip plt_Foundation_NSBundle_get_MainBundle
 plt_Foundation_NSBundle_get_MainBundle:
 _p_66:
@@ -30738,7 +30738,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 5845
+.word 5854
 	.no_dead_strip plt_Foundation_NSString__ctor_string
 plt_Foundation_NSString__ctor_string:
 _p_67:
@@ -30746,7 +30746,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 5850
+.word 5859
 	.no_dead_strip plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject
 plt_Foundation_NSDictionary_ContainsKey_Foundation_NSObject:
 _p_68:
@@ -30754,7 +30754,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 5855
+.word 5864
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_69:
@@ -30762,7 +30762,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 5860
+.word 5869
 	.no_dead_strip plt_System_Threading_Interlocked_Exchange_UIKit_UIImagePickerControllerDelegate_UIKit_UIImagePickerControllerDelegate__UIKit_UIImagePickerControllerDelegate
 plt_System_Threading_Interlocked_Exchange_UIKit_UIImagePickerControllerDelegate_UIKit_UIImagePickerControllerDelegate__UIKit_UIImagePickerControllerDelegate:
 _p_70:
@@ -30770,7 +30770,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 5865
+.word 5874
 	.no_dead_strip plt_UIKit_UIImagePickerController__ctor
 plt_UIKit_UIImagePickerController__ctor:
 _p_71:
@@ -30778,7 +30778,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 5877
+.word 5886
 	.no_dead_strip plt_UIKit_UIImagePickerController_set_Delegate_Foundation_NSObject
 plt_UIKit_UIImagePickerController_set_Delegate_Foundation_NSObject:
 _p_72:
@@ -30786,7 +30786,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 5882
+.word 5891
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_Delegate
 plt_UIKit_UIImagePickerController_get_Delegate:
 _p_73:
@@ -30794,7 +30794,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 5887
+.word 5896
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile__ctor:
 _p_74:
@@ -30802,7 +30802,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 5892
+.word 5901
 	.no_dead_strip plt_UIKit_UIImagePickerControllerDelegate__ctor
 plt_UIKit_UIImagePickerControllerDelegate__ctor:
 _p_75:
@@ -30810,7 +30810,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 5903
+.word 5912
 	.no_dead_strip plt_Foundation_NSNotificationCenter_get_DefaultCenter
 plt_Foundation_NSNotificationCenter_get_DefaultCenter:
 _p_76:
@@ -30818,7 +30818,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 5908
+.word 5917
 	.no_dead_strip plt_UIKit_UIDevice_get_OrientationDidChangeNotification
 plt_UIKit_UIDevice_get_OrientationDidChangeNotification:
 _p_77:
@@ -30826,7 +30826,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 5913
+.word 5922
 	.no_dead_strip plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification
 plt_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification:
 _p_78:
@@ -30834,7 +30834,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 5918
+.word 5927
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_get_Task
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_get_Task:
 _p_79:
@@ -30842,7 +30842,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 5923
+.word 5932
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_80:
@@ -30850,7 +30850,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 5934
+.word 5943
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_81:
@@ -30858,7 +30858,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 5939
+.word 5948
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_82:
@@ -30866,7 +30866,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 5944
+.word 5953
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_:
 _p_83:
@@ -30874,7 +30874,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 5949
+.word 5958
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_RemoveOrientationChangeObserverAndNotifications
 plt_Plugin_Media_MediaPickerDelegate_RemoveOrientationChangeObserverAndNotifications:
 _p_84:
@@ -30882,7 +30882,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 5961
+.word 5970
 	.no_dead_strip plt_Plugin_Media_MediaImplementation_get_StatusBarStyle
 plt_Plugin_Media_MediaImplementation_get_StatusBarStyle:
 _p_85:
@@ -30890,7 +30890,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 5963
+.word 5972
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_Dismiss_UIKit_UIImagePickerController_System_Action
 plt_Plugin_Media_MediaPickerDelegate_Dismiss_UIKit_UIImagePickerController_System_Action:
 _p_86:
@@ -30898,7 +30898,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 5965
+.word 5974
 	.no_dead_strip plt_UIKit_UIScreen_get_MainScreen
 plt_UIKit_UIScreen_get_MainScreen:
 _p_87:
@@ -30906,7 +30906,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 5967
+.word 5976
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Width
 plt_CoreGraphics_CGRect_get_Width:
 _p_88:
@@ -30914,7 +30914,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 5972
+.word 5981
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Height
 plt_CoreGraphics_CGRect_get_Height:
 _p_89:
@@ -30922,7 +30922,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 5977
+.word 5986
 	.no_dead_strip plt_System_nfloat_op_Implicit_int
 plt_System_nfloat_op_Implicit_int:
 _p_90:
@@ -30930,7 +30930,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 5982
+.word 5991
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue
 plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_HasValue:
 _p_91:
@@ -30938,7 +30938,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 5987
+.word 5996
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_IsValidInterfaceOrientation_UIKit_UIDeviceOrientation
 plt_Plugin_Media_MediaPickerDelegate_IsValidInterfaceOrientation_UIKit_UIDeviceOrientation:
 _p_92:
@@ -30946,7 +30946,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 5998
+.word 6007
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation
 plt_System_Nullable_1_UIKit_UIDeviceOrientation__ctor_UIKit_UIDeviceOrientation:
 _p_93:
@@ -30954,7 +30954,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 6000
+.word 6009
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetDeviceOrientation_UIKit_UIInterfaceOrientation
 plt_Plugin_Media_MediaPickerDelegate_GetDeviceOrientation_UIKit_UIInterfaceOrientation:
 _p_94:
@@ -30962,7 +30962,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 6011
+.word 6020
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault
 plt_System_Nullable_1_UIKit_UIDeviceOrientation_GetValueOrDefault:
 _p_95:
@@ -30970,7 +30970,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 6013
+.word 6022
 	.no_dead_strip plt_System_Math_Max_double_double
 plt_System_Math_Max_double_double:
 _p_96:
@@ -30978,7 +30978,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 6024
+.word 6033
 	.no_dead_strip plt_System_Math_Min_double_double
 plt_System_Math_Min_double_double:
 _p_97:
@@ -30986,7 +30986,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 6029
+.word 6038
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_double_double_double_double
 plt_CoreGraphics_CGRect__ctor_double_double_double_double:
 _p_98:
@@ -30994,7 +30994,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 6034
+.word 6043
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_View
 plt_Plugin_Media_MediaPickerDelegate_get_View:
 _p_99:
@@ -31002,7 +31002,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 6039
+.word 6048
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_Value
 plt_System_Nullable_1_UIKit_UIDeviceOrientation_get_Value:
 _p_100:
@@ -31010,7 +31010,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 6041
+.word 6050
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_IsSameOrientationKind_UIKit_UIDeviceOrientation_UIKit_UIDeviceOrientation
 plt_Plugin_Media_MediaPickerDelegate_IsSameOrientationKind_UIKit_UIDeviceOrientation_UIKit_UIDeviceOrientation:
 _p_101:
@@ -31018,7 +31018,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 6052
+.word 6061
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate6_UIKit_UIDeviceOrientation
 plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate6_UIKit_UIDeviceOrientation:
 _p_102:
@@ -31026,7 +31026,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 6054
+.word 6063
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate_UIKit_UIDeviceOrientation
 plt_Plugin_Media_MediaPickerDelegate_GetShouldRotate_UIKit_UIDeviceOrientation:
 _p_103:
@@ -31034,7 +31034,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 6056
+.word 6065
 	.no_dead_strip plt_System_Enum_HasFlag_System_Enum
 plt_System_Enum_HasFlag_System_Enum:
 _p_104:
@@ -31042,7 +31042,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 6058
+.word 6067
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Create:
 _p_105:
@@ -31050,7 +31050,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 6063
+.word 6072
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_:
 _p_106:
@@ -31058,7 +31058,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 6074
+.word 6083
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_get_Task:
 _p_107:
@@ -31066,7 +31066,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 6086
+.word 6095
 	.no_dead_strip plt_Foundation_NSMutableDictionary__ctor
 plt_Foundation_NSMutableDictionary__ctor:
 _p_108:
@@ -31074,7 +31074,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 6097
+.word 6106
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Latitude
 plt_Plugin_Media_Abstractions_Location_get_Latitude:
 _p_109:
@@ -31082,7 +31082,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 6102
+.word 6111
 	.no_dead_strip plt_Foundation_NSNumber__ctor_double
 plt_Foundation_NSNumber__ctor_double:
 _p_110:
@@ -31090,7 +31090,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 6107
+.word 6116
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLatitude
 plt_ImageIO_CGImageProperties_get_GPSLatitude:
 _p_111:
@@ -31098,7 +31098,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 6112
+.word 6121
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLatitudeRef
 plt_ImageIO_CGImageProperties_get_GPSLatitudeRef:
 _p_112:
@@ -31106,7 +31106,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 6117
+.word 6126
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Longitude
 plt_Plugin_Media_Abstractions_Location_get_Longitude:
 _p_113:
@@ -31114,7 +31114,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 6122
+.word 6131
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLongitude
 plt_ImageIO_CGImageProperties_get_GPSLongitude:
 _p_114:
@@ -31122,7 +31122,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 6127
+.word 6136
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSLongitudeRef
 plt_ImageIO_CGImageProperties_get_GPSLongitudeRef:
 _p_115:
@@ -31130,7 +31130,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 6132
+.word 6141
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Altitude
 plt_Plugin_Media_Abstractions_Location_get_Altitude:
 _p_116:
@@ -31138,7 +31138,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 6137
+.word 6146
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSAltitude
 plt_ImageIO_CGImageProperties_get_GPSAltitude:
 _p_117:
@@ -31146,7 +31146,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 6142
+.word 6151
 	.no_dead_strip plt_Foundation_NSNumber__ctor_int
 plt_Foundation_NSNumber__ctor_int:
 _p_118:
@@ -31154,7 +31154,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 6147
+.word 6156
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSAltitudeRef
 plt_ImageIO_CGImageProperties_get_GPSAltitudeRef:
 _p_119:
@@ -31162,7 +31162,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 6152
+.word 6161
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Speed
 plt_Plugin_Media_Abstractions_Location_get_Speed:
 _p_120:
@@ -31170,7 +31170,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 6157
+.word 6166
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSSpeed
 plt_ImageIO_CGImageProperties_get_GPSSpeed:
 _p_121:
@@ -31178,7 +31178,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 6162
+.word 6171
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSSpeedRef
 plt_ImageIO_CGImageProperties_get_GPSSpeedRef:
 _p_122:
@@ -31186,7 +31186,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 6167
+.word 6176
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Direction
 plt_Plugin_Media_Abstractions_Location_get_Direction:
 _p_123:
@@ -31194,7 +31194,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 6172
+.word 6181
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSImgDirection
 plt_ImageIO_CGImageProperties_get_GPSImgDirection:
 _p_124:
@@ -31202,7 +31202,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 6177
+.word 6186
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSImgDirectionRef
 plt_ImageIO_CGImageProperties_get_GPSImgDirectionRef:
 _p_125:
@@ -31210,7 +31210,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 6182
+.word 6191
 	.no_dead_strip plt_Plugin_Media_Abstractions_Location_get_Timestamp
 plt_Plugin_Media_Abstractions_Location_get_Timestamp:
 _p_126:
@@ -31218,7 +31218,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 6187
+.word 6196
 	.no_dead_strip plt_System_DateTime_ToString_string
 plt_System_DateTime_ToString_string:
 _p_127:
@@ -31226,7 +31226,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 6192
+.word 6201
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSTimeStamp
 plt_ImageIO_CGImageProperties_get_GPSTimeStamp:
 _p_128:
@@ -31234,7 +31234,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 6197
+.word 6206
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSDateStamp
 plt_ImageIO_CGImageProperties_get_GPSDateStamp:
 _p_129:
@@ -31242,7 +31242,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 6202
+.word 6211
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_GPSDictionary
 plt_ImageIO_CGImageProperties_get_GPSDictionary:
 _p_130:
@@ -31250,7 +31250,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 6207
+.word 6216
 	.no_dead_strip plt_UIKit_UIImage_AsJPEG_System_nfloat
 plt_UIKit_UIImage_AsJPEG_System_nfloat:
 _p_131:
@@ -31258,7 +31258,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 6212
+.word 6221
 	.no_dead_strip plt_CoreGraphics_CGDataProvider__ctor_Foundation_NSData
 plt_CoreGraphics_CGDataProvider__ctor_Foundation_NSData:
 _p_132:
@@ -31266,7 +31266,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 6217
+.word 6226
 	.no_dead_strip plt_CoreGraphics_CGImage_FromJPEG_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent
 plt_CoreGraphics_CGImage_FromJPEG_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent:
 _p_133:
@@ -31274,7 +31274,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 6222
+.word 6231
 	.no_dead_strip plt_Foundation_NSMutableData__ctor
 plt_Foundation_NSMutableData__ctor:
 _p_134:
@@ -31282,7 +31282,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 6227
+.word 6236
 	.no_dead_strip plt_MobileCoreServices_UTType_get_JPEG
 plt_MobileCoreServices_UTType_get_JPEG:
 _p_135:
@@ -31290,7 +31290,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 6232
+.word 6241
 	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
 plt_Foundation_NSString_op_Implicit_Foundation_NSString:
 _p_136:
@@ -31298,7 +31298,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 6237
+.word 6246
 	.no_dead_strip plt_ImageIO_CGImageDestination_Create_Foundation_NSMutableData_string_int_ImageIO_CGImageDestinationOptions
 plt_ImageIO_CGImageDestination_Create_Foundation_NSMutableData_string_int_ImageIO_CGImageDestinationOptions:
 _p_137:
@@ -31306,7 +31306,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 6242
+.word 6251
 	.no_dead_strip plt_ImageIO_CGMutableImageMetadata__ctor
 plt_ImageIO_CGMutableImageMetadata__ctor:
 _p_138:
@@ -31314,7 +31314,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 6247
+.word 6256
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions__ctor
 plt_ImageIO_CGImageDestinationOptions__ctor:
 _p_139:
@@ -31322,7 +31322,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 6252
+.word 6261
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_Orientation
 plt_ImageIO_CGImageProperties_get_Orientation:
 _p_140:
@@ -31330,7 +31330,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 6257
+.word 6266
 	.no_dead_strip plt_Foundation_DictionaryContainer_get_Dictionary
 plt_Foundation_DictionaryContainer_get_Dictionary:
 _p_141:
@@ -31338,7 +31338,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 6262
+.word 6271
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_DPIWidth
 plt_ImageIO_CGImageProperties_get_DPIWidth:
 _p_142:
@@ -31346,7 +31346,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 6267
+.word 6276
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_DPIHeight
 plt_ImageIO_CGImageProperties_get_DPIHeight:
 _p_143:
@@ -31354,7 +31354,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 6272
+.word 6281
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_ExifDictionary
 plt_ImageIO_CGImageProperties_get_ExifDictionary:
 _p_144:
@@ -31362,7 +31362,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 6277
+.word 6286
 	.no_dead_strip plt_CoreGraphics_CGImagePropertiesExif__ctor_Foundation_NSDictionary
 plt_CoreGraphics_CGImagePropertiesExif__ctor_Foundation_NSDictionary:
 _p_145:
@@ -31370,7 +31370,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 6282
+.word 6291
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_ExifDictionary_CoreGraphics_CGImagePropertiesExif
 plt_ImageIO_CGImageDestinationOptions_set_ExifDictionary_CoreGraphics_CGImagePropertiesExif:
 _p_146:
@@ -31378,7 +31378,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 6287
+.word 6296
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_TIFFDictionary
 plt_ImageIO_CGImageProperties_get_TIFFDictionary:
 _p_147:
@@ -31386,7 +31386,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 6292
+.word 6301
 	.no_dead_strip plt_CoreGraphics_CGImagePropertiesTiff__ctor_Foundation_NSDictionary
 plt_CoreGraphics_CGImagePropertiesTiff__ctor_Foundation_NSDictionary:
 _p_148:
@@ -31394,7 +31394,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 6297
+.word 6306
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_TiffDictionary_CoreGraphics_CGImagePropertiesTiff
 plt_ImageIO_CGImageDestinationOptions_set_TiffDictionary_CoreGraphics_CGImagePropertiesTiff:
 _p_149:
@@ -31402,7 +31402,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 6302
+.word 6311
 	.no_dead_strip plt_CoreGraphics_CGImagePropertiesGps__ctor_Foundation_NSDictionary
 plt_CoreGraphics_CGImagePropertiesGps__ctor_Foundation_NSDictionary:
 _p_150:
@@ -31410,7 +31410,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 6307
+.word 6316
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_GpsDictionary_CoreGraphics_CGImagePropertiesGps
 plt_ImageIO_CGImageDestinationOptions_set_GpsDictionary_CoreGraphics_CGImagePropertiesGps:
 _p_151:
@@ -31418,7 +31418,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 6312
+.word 6321
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_JFIFDictionary
 plt_ImageIO_CGImageProperties_get_JFIFDictionary:
 _p_152:
@@ -31426,7 +31426,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 6317
+.word 6326
 	.no_dead_strip plt_CoreGraphics_CGImagePropertiesJfif__ctor_Foundation_NSDictionary
 plt_CoreGraphics_CGImagePropertiesJfif__ctor_Foundation_NSDictionary:
 _p_153:
@@ -31434,7 +31434,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 6322
+.word 6331
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_JfifDictionary_CoreGraphics_CGImagePropertiesJfif
 plt_ImageIO_CGImageDestinationOptions_set_JfifDictionary_CoreGraphics_CGImagePropertiesJfif:
 _p_154:
@@ -31442,7 +31442,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 6327
+.word 6336
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_IPTCDictionary
 plt_ImageIO_CGImageProperties_get_IPTCDictionary:
 _p_155:
@@ -31450,7 +31450,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 6332
+.word 6341
 	.no_dead_strip plt_CoreGraphics_CGImagePropertiesIptc__ctor_Foundation_NSDictionary
 plt_CoreGraphics_CGImagePropertiesIptc__ctor_Foundation_NSDictionary:
 _p_156:
@@ -31458,7 +31458,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 6337
+.word 6346
 	.no_dead_strip plt_ImageIO_CGImageDestinationOptions_set_IptcDictionary_CoreGraphics_CGImagePropertiesIptc
 plt_ImageIO_CGImageDestinationOptions_set_IptcDictionary_CoreGraphics_CGImagePropertiesIptc:
 _p_157:
@@ -31466,7 +31466,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 6342
+.word 6351
 	.no_dead_strip plt_ImageIO_CGImageDestination_AddImageAndMetadata_CoreGraphics_CGImage_ImageIO_CGImageMetadata_ImageIO_CGImageDestinationOptions
 plt_ImageIO_CGImageDestination_AddImageAndMetadata_CoreGraphics_CGImage_ImageIO_CGImageMetadata_ImageIO_CGImageDestinationOptions:
 _p_158:
@@ -31474,7 +31474,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 6347
+.word 6356
 	.no_dead_strip plt_ImageIO_CGImageDestination_Close
 plt_ImageIO_CGImageDestination_Close:
 _p_159:
@@ -31482,7 +31482,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 6352
+.word 6361
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_160:
@@ -31490,7 +31490,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 6357
+.word 6366
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_161:
@@ -31498,7 +31498,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 6362
+.word 6371
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_162:
@@ -31506,7 +31506,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 6367
+.word 6376
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_Start_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_:
 _p_163:
@@ -31514,7 +31514,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 6406
+.word 6415
 	.no_dead_strip plt_System_IO_Path_GetExtension_string
 plt_System_IO_Path_GetExtension_string:
 _p_164:
@@ -31522,7 +31522,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 6418
+.word 6427
 	.no_dead_strip plt_System_IO_Path_GetFileNameWithoutExtension_string
 plt_System_IO_Path_GetFileNameWithoutExtension_string:
 _p_165:
@@ -31530,7 +31530,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 6423
+.word 6432
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_166:
@@ -31538,7 +31538,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 6428
+.word 6437
 	.no_dead_strip plt_string_Concat_object__
 plt_string_Concat_object__:
 _p_167:
@@ -31546,7 +31546,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 6433
+.word 6442
 	.no_dead_strip plt_System_IO_Path_Combine_string_string
 plt_System_IO_Path_Combine_string_string:
 _p_168:
@@ -31554,7 +31554,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 6438
+.word 6447
 	.no_dead_strip plt_System_IO_File_Exists_string
 plt_System_IO_File_Exists_string:
 _p_169:
@@ -31562,7 +31562,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 6443
+.word 6452
 	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
 plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
 _p_170:
@@ -31570,7 +31570,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 6448
+.word 6457
 	.no_dead_strip plt_System_IO_Directory_CreateDirectory_string
 plt_System_IO_Directory_CreateDirectory_string:
 _p_171:
@@ -31578,7 +31578,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 6453
+.word 6462
 	.no_dead_strip plt_string_IsNullOrWhiteSpace_string
 plt_string_IsNullOrWhiteSpace_string:
 _p_172:
@@ -31586,7 +31586,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 6458
+.word 6467
 	.no_dead_strip plt_System_DateTime_get_Now
 plt_System_DateTime_get_Now:
 _p_173:
@@ -31594,7 +31594,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 6463
+.word 6472
 	.no_dead_strip plt_System_Globalization_CultureInfo_get_InvariantCulture
 plt_System_Globalization_CultureInfo_get_InvariantCulture:
 _p_174:
@@ -31602,7 +31602,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 6468
+.word 6477
 	.no_dead_strip plt_System_DateTime_ToString_string_System_IFormatProvider
 plt_System_DateTime_ToString_string_System_IFormatProvider:
 _p_175:
@@ -31610,7 +31610,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 6473
+.word 6482
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_176:
@@ -31618,7 +31618,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 6478
+.word 6487
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetUniquePath_string_string_string
 plt_Plugin_Media_MediaPickerDelegate_GetUniquePath_string_string_string:
 _p_177:
@@ -31626,7 +31626,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 6483
+.word 6492
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile:
 _p_178:
@@ -31634,7 +31634,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 6485
+.word 6494
 	.no_dead_strip plt_UIKit_UIPopoverControllerDelegate__ctor
 plt_UIKit_UIPopoverControllerDelegate__ctor:
 _p_179:
@@ -31642,7 +31642,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 6496
+.word 6505
 	.no_dead_strip plt_System_IO_Stream__ctor
 plt_System_IO_Stream__ctor:
 _p_180:
@@ -31650,7 +31650,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 6501
+.word 6510
 	.no_dead_strip plt_System_nuint_op_Implicit_System_nuint
 plt_System_nuint_op_Implicit_System_nuint:
 _p_181:
@@ -31658,7 +31658,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 6506
+.word 6515
 	.no_dead_strip plt_intptr_ToInt64
 plt_intptr_ToInt64:
 _p_182:
@@ -31666,7 +31666,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 6511
+.word 6520
 	.no_dead_strip plt_intptr__ctor_long
 plt_intptr__ctor_long:
 _p_183:
@@ -31674,7 +31674,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 6516
+.word 6525
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int
 plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int:
 _p_184:
@@ -31682,7 +31682,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 6521
+.word 6530
 	.no_dead_strip plt_CoreImage_CIContext_Create
 plt_CoreImage_CIContext_Create:
 _p_185:
@@ -31690,7 +31690,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 6526
+.word 6535
 	.no_dead_strip plt_CoreImage_CIImage_FromCGImage_CoreGraphics_CGImage
 plt_CoreImage_CIImage_FromCGImage_CoreGraphics_CGImage:
 _p_186:
@@ -31698,7 +31698,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 6531
+.word 6540
 	.no_dead_strip plt_CoreImage_CILanczosScaleTransform__ctor
 plt_CoreImage_CILanczosScaleTransform__ctor:
 _p_187:
@@ -31706,7 +31706,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 6536
+.word 6545
 	.no_dead_strip plt_CoreImage_CILanczosScaleTransform_set_Scale_single
 plt_CoreImage_CILanczosScaleTransform_set_Scale_single:
 _p_188:
@@ -31714,7 +31714,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 6541
+.word 6550
 	.no_dead_strip plt_CoreImage_CIFilter_set_Image_CoreImage_CIImage
 plt_CoreImage_CIFilter_set_Image_CoreImage_CIImage:
 _p_189:
@@ -31722,7 +31722,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 6546
+.word 6555
 	.no_dead_strip plt_CoreImage_CILanczosScaleTransform_set_AspectRatio_single
 plt_CoreImage_CILanczosScaleTransform_set_AspectRatio_single:
 _p_190:
@@ -31730,7 +31730,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 6551
+.word 6560
 	.no_dead_strip plt_UIKit_UIImage_FromImage_CoreGraphics_CGImage_System_nfloat_UIKit_UIImageOrientation
 plt_UIKit_UIImage_FromImage_CoreGraphics_CGImage_System_nfloat_UIKit_UIImageOrientation:
 _p_191:
@@ -31738,7 +31738,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 6556
+.word 6565
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Width
 plt_CoreGraphics_CGSize_get_Width:
 _p_192:
@@ -31746,7 +31746,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 6561
+.word 6570
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Height
 plt_CoreGraphics_CGSize_get_Height:
 _p_193:
@@ -31754,7 +31754,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 6566
+.word 6575
 	.no_dead_strip plt_CoreGraphics_CGSize__ctor_double_double
 plt_CoreGraphics_CGSize__ctor_double_double:
 _p_194:
@@ -31762,7 +31762,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 6571
+.word 6580
 	.no_dead_strip plt_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize
 plt_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize:
 _p_195:
@@ -31770,7 +31770,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 6576
+.word 6585
 	.no_dead_strip plt_UIKit_UIGraphics_GetImageFromCurrentImageContext
 plt_UIKit_UIGraphics_GetImageFromCurrentImageContext:
 _p_196:
@@ -31778,7 +31778,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 6581
+.word 6590
 	.no_dead_strip plt_UIKit_UIGraphics_EndImageContext
 plt_UIKit_UIGraphics_EndImageContext:
 _p_197:
@@ -31786,7 +31786,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 6586
+.word 6595
 	.no_dead_strip plt_System_Drawing_SizeF__ctor_single_single
 plt_System_Drawing_SizeF__ctor_single_single:
 _p_198:
@@ -31794,7 +31794,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 6591
+.word 6600
 	.no_dead_strip plt_CoreGraphics_CGSize_op_Implicit_System_Drawing_SizeF
 plt_CoreGraphics_CGSize_op_Implicit_System_Drawing_SizeF:
 _p_199:
@@ -31802,7 +31802,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 6596
+.word 6605
 	.no_dead_strip plt_System_Drawing_RectangleF__ctor_single_single_single_single
 plt_System_Drawing_RectangleF__ctor_single_single_single_single:
 _p_200:
@@ -31810,7 +31810,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 6601
+.word 6610
 	.no_dead_strip plt_CoreGraphics_CGRect_op_Implicit_System_Drawing_RectangleF
 plt_CoreGraphics_CGRect_op_Implicit_System_Drawing_RectangleF:
 _p_201:
@@ -31818,7 +31818,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 6606
+.word 6615
 	.no_dead_strip plt_UIKit_UIGraphics_GetCurrentContext
 plt_UIKit_UIGraphics_GetCurrentContext:
 _p_202:
@@ -31826,7 +31826,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 6611
+.word 6620
 	.no_dead_strip plt_CoreGraphics_CGContext_ClipToRect_CoreGraphics_CGRect
 plt_CoreGraphics_CGContext_ClipToRect_CoreGraphics_CGRect:
 _p_203:
@@ -31834,7 +31834,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 6616
+.word 6625
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_204:
@@ -31842,7 +31842,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 6621
+.word 6630
 	.no_dead_strip plt_Plugin_Media_PhotoLibraryAccess__c__DisplayClass0_0__ctor
 plt_Plugin_Media_PhotoLibraryAccess__c__DisplayClass0_0__ctor:
 _p_205:
@@ -31850,7 +31850,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 6626
+.word 6635
 	.no_dead_strip plt_Photos_PHFetchOptions__ctor
 plt_Photos_PHFetchOptions__ctor:
 _p_206:
@@ -31858,7 +31858,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 6628
+.word 6637
 	.no_dead_strip plt_Photos_PHAsset_FetchAssets_Foundation_NSUrl___Photos_PHFetchOptions
 plt_Photos_PHAsset_FetchAssets_Foundation_NSUrl___Photos_PHFetchOptions:
 _p_207:
@@ -31866,7 +31866,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 6633
+.word 6642
 	.no_dead_strip plt_Photos_PHImageManager_get_DefaultManager
 plt_Photos_PHImageManager_get_DefaultManager:
 _p_208:
@@ -31874,7 +31874,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 6638
+.word 6647
 	.no_dead_strip plt_Photos_PHImageRequestOptions__ctor
 plt_Photos_PHImageRequestOptions__ctor:
 _p_209:
@@ -31882,7 +31882,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 6643
+.word 6652
 	.no_dead_strip plt_Plugin_Media_CrossMedia__c__ctor
 plt_Plugin_Media_CrossMedia__c__ctor:
 _p_210:
@@ -31890,7 +31890,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 6648
+.word 6657
 	.no_dead_strip plt_Plugin_Media_CrossMedia_CreateMedia
 plt_Plugin_Media_CrossMedia_CreateMedia:
 _p_211:
@@ -31898,7 +31898,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 6650
+.word 6659
 	.no_dead_strip plt_Plugin_Media_MediaImplementation__c__ctor
 plt_Plugin_Media_MediaImplementation__c__ctor:
 _p_212:
@@ -31906,7 +31906,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 6652
+.word 6661
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_TrySetResult_Plugin_Media_Abstractions_MediaFile
 plt_System_Threading_Tasks_TaskCompletionSource_1_Plugin_Media_Abstractions_MediaFile_TrySetResult_Plugin_Media_Abstractions_MediaFile:
 _p_213:
@@ -31914,7 +31914,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 6654
+.word 6663
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass9_0__ctor
 plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass9_0__ctor:
 _p_214:
@@ -31922,7 +31922,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 6665
+.word 6674
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaType
 plt_UIKit_UIImagePickerController_get_MediaType:
 _p_215:
@@ -31930,7 +31930,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 6667
+.word 6676
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetPictureMediaFile_Foundation_NSDictionary
 plt_Plugin_Media_MediaPickerDelegate_GetPictureMediaFile_Foundation_NSDictionary:
 _p_216:
@@ -31938,7 +31938,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 6672
+.word 6681
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter:
 _p_217:
@@ -31946,7 +31946,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 6674
+.word 6683
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted:
 _p_218:
@@ -31954,7 +31954,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 6685
+.word 6694
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__Plugin_Media_MediaPickerDelegate__FinishedPickingMediad__9_:
 _p_219:
@@ -31962,7 +31962,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 6696
+.word 6705
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult:
 _p_220:
@@ -31970,7 +31970,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 6708
+.word 6717
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetMovieMediaFile_Foundation_NSDictionary
 plt_Plugin_Media_MediaPickerDelegate_GetMovieMediaFile_Foundation_NSDictionary:
 _p_221:
@@ -31978,7 +31978,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 6719
+.word 6728
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_222:
@@ -31986,7 +31986,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 6721
+.word 6730
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_223:
@@ -31994,7 +31994,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 6726
+.word 6735
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_224:
@@ -32002,7 +32002,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 6731
+.word 6740
 	.no_dead_strip plt_System_IO_File_OpenRead_string
 plt_System_IO_File_OpenRead_string:
 _p_225:
@@ -32010,7 +32010,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 6736
+.word 6745
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass25_0__ctor
 plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass25_0__ctor:
 _p_226:
@@ -32018,7 +32018,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 6741
+.word 6750
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_EditedImage
 plt_UIKit_UIImagePickerController_get_EditedImage:
 _p_227:
@@ -32026,7 +32026,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 6743
+.word 6752
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_OriginalImage
 plt_UIKit_UIImagePickerController_get_OriginalImage:
 _p_228:
@@ -32034,7 +32034,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 6748
+.word 6757
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_get_IsCaptured
 plt_Plugin_Media_MediaPickerDelegate_get_IsCaptured:
 _p_229:
@@ -32042,7 +32042,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 6753
+.word 6762
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Name
 plt_Plugin_Media_Abstractions_StoreMediaOptions_get_Name:
 _p_230:
@@ -32050,7 +32050,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 6755
+.word 6764
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_GetOutputPath_string_string_string
 plt_Plugin_Media_MediaPickerDelegate_GetOutputPath_string_string_string:
 _p_231:
@@ -32058,7 +32058,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 6760
+.word 6769
 	.no_dead_strip plt_CoreGraphics_CGImage_get_Height
 plt_CoreGraphics_CGImage_get_Height:
 _p_232:
@@ -32066,7 +32066,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 6762
+.word 6771
 	.no_dead_strip plt_System_nint_op_Implicit_System_nint
 plt_System_nint_op_Implicit_System_nint:
 _p_233:
@@ -32074,7 +32074,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 6767
+.word 6776
 	.no_dead_strip plt_CoreGraphics_CGImage_get_Width
 plt_CoreGraphics_CGImage_get_Width:
 _p_234:
@@ -32082,7 +32082,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 6772
+.word 6781
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_PhotoSize
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_PhotoSize:
 _p_235:
@@ -32090,7 +32090,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 6777
+.word 6786
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CustomPhotoSize
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CustomPhotoSize:
 _p_236:
@@ -32098,7 +32098,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 6782
+.word 6791
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_MaxWidthHeight
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_MaxWidthHeight:
 _p_237:
@@ -32106,7 +32106,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 6787
+.word 6796
 	.no_dead_strip plt_System_Nullable_1_int_get_HasValue
 plt_System_Nullable_1_int_get_HasValue:
 _p_238:
@@ -32114,7 +32114,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 6792
+.word 6801
 	.no_dead_strip plt_System_Math_Max_long_long
 plt_System_Math_Max_long_long:
 _p_239:
@@ -32122,7 +32122,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 6803
+.word 6812
 	.no_dead_strip plt_System_Nullable_1_int_get_Value
 plt_System_Nullable_1_int_get_Value:
 _p_240:
@@ -32130,7 +32130,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 6808
+.word 6817
 	.no_dead_strip plt_Plugin_Media_UIImageExtensions_ResizeImageWithAspectRatio_UIKit_UIImage_single
 plt_Plugin_Media_UIImageExtensions_ResizeImageWithAspectRatio_UIKit_UIImage_single:
 _p_241:
@@ -32138,7 +32138,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 6819
+.word 6828
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaMetadata
 plt_UIKit_UIImagePickerController_get_MediaMetadata:
 _p_242:
@@ -32146,7 +32146,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 6821
+.word 6830
 	.no_dead_strip plt_ImageIO_CGImageProperties_get_TIFFOrientation
 plt_ImageIO_CGImageProperties_get_TIFFOrientation:
 _p_243:
@@ -32154,7 +32154,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 6826
+.word 6835
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_Location
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_Location:
 _p_244:
@@ -32162,7 +32162,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 6831
+.word 6840
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_SetGpsLocation_Foundation_NSDictionary_Plugin_Media_Abstractions_Location
 plt_Plugin_Media_MediaPickerDelegate_SetGpsLocation_Foundation_NSDictionary_Plugin_Media_Abstractions_Location:
 _p_245:
@@ -32170,7 +32170,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 6836
+.word 6845
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_ReferenceUrl
 plt_UIKit_UIImagePickerController_get_ReferenceUrl:
 _p_246:
@@ -32178,7 +32178,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 6838
+.word 6847
 	.no_dead_strip plt_Plugin_Media_PhotoLibraryAccess_GetPhotoLibraryMetadata_Foundation_NSUrl
 plt_Plugin_Media_PhotoLibraryAccess_GetPhotoLibraryMetadata_Foundation_NSUrl:
 _p_247:
@@ -32186,7 +32186,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 6843
+.word 6852
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CompressionQuality
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_CompressionQuality:
 _p_248:
@@ -32194,7 +32194,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 6845
+.word 6854
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate_SaveImageWithMetadata_UIKit_UIImage_single_Foundation_NSDictionary_string
 plt_Plugin_Media_MediaPickerDelegate_SaveImageWithMetadata_UIKit_UIImage_single_Foundation_NSDictionary_string:
 _p_249:
@@ -32202,7 +32202,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 6850
+.word 6859
 	.no_dead_strip plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_SaveToAlbum
 plt_Plugin_Media_Abstractions_StoreCameraMediaOptions_get_SaveToAlbum:
 _p_250:
@@ -32210,7 +32210,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 6852
+.word 6861
 	.no_dead_strip plt_AssetsLibrary_ALAssetsLibrary__ctor
 plt_AssetsLibrary_ALAssetsLibrary__ctor:
 _p_251:
@@ -32218,7 +32218,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 6857
+.word 6866
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Foundation_NSUrl_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Foundation_NSUrl_GetAwaiter:
 _p_252:
@@ -32226,7 +32226,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 6862
+.word 6871
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_get_IsCompleted:
 _p_253:
@@ -32234,7 +32234,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 6873
+.word 6882
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_:
 _p_254:
@@ -32242,7 +32242,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 6884
+.word 6893
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_GetResult:
 _p_255:
@@ -32250,7 +32250,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 6896
+.word 6905
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_256:
@@ -32258,7 +32258,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 6907
+.word 6916
 	.no_dead_strip plt_Plugin_Media_Abstractions_MediaFile__ctor_string_System_Func_1_System_IO_Stream_string
 plt_Plugin_Media_Abstractions_MediaFile__ctor_string_System_Func_1_System_IO_Stream_string:
 _p_257:
@@ -32266,7 +32266,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 6912
+.word 6921
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetException_System_Exception:
 _p_258:
@@ -32274,7 +32274,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 6917
+.word 6926
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetResult_Plugin_Media_Abstractions_MediaFile:
 _p_259:
@@ -32282,7 +32282,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 6928
+.word 6937
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_260:
@@ -32290,7 +32290,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 6939
+.word 6948
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass28_0__ctor
 plt_Plugin_Media_MediaPickerDelegate__c__DisplayClass28_0__ctor:
 _p_261:
@@ -32298,7 +32298,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 6950
+.word 6959
 	.no_dead_strip plt_UIKit_UIImagePickerController_get_MediaURL
 plt_UIKit_UIImagePickerController_get_MediaURL:
 _p_262:
@@ -32306,7 +32306,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 6952
+.word 6961
 	.no_dead_strip plt_System_IO_Path_GetFileName_string
 plt_System_IO_Path_GetFileName_string:
 _p_263:
@@ -32314,7 +32314,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 6957
+.word 6966
 	.no_dead_strip plt_System_IO_File_Move_string_string
 plt_System_IO_File_Move_string_string:
 _p_264:
@@ -32322,7 +32322,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 6962
+.word 6971
 	.no_dead_strip plt_Foundation_NSUrl__ctor_string
 plt_Foundation_NSUrl__ctor_string:
 _p_265:
@@ -32330,7 +32330,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 6967
+.word 6976
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Plugin_Media_Abstractions_MediaFile_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl__Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_:
 _p_266:
@@ -32338,7 +32338,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 6972
+.word 6981
 	.no_dead_strip plt_CoreImage_CIImage_FromData_Foundation_NSData
 plt_CoreImage_CIImage_FromData_Foundation_NSData:
 _p_267:
@@ -32346,7 +32346,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 6984
+.word 6993
 	.no_dead_strip plt_CoreImage_CIImage_get_Properties
 plt_CoreImage_CIImage_get_Properties:
 _p_268:
@@ -32354,7 +32354,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 6989
+.word 6998
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Orientation
 plt_CoreGraphics_CGImageProperties_get_Orientation:
 _p_269:
@@ -32362,7 +32362,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 6994
+.word 7003
 	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_ToString
 plt_System_Nullable_1_CoreImage_CIImageOrientation_ToString:
 _p_270:
@@ -32370,7 +32370,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 6999
+.word 7008
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Exif
 plt_CoreGraphics_CGImageProperties_get_Exif:
 _p_271:
@@ -32378,7 +32378,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 7021
+.word 7030
 	.no_dead_strip plt_Foundation_NSDictionary__ctor
 plt_Foundation_NSDictionary__ctor:
 _p_272:
@@ -32386,7 +32386,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 7026
+.word 7035
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Tiff
 plt_CoreGraphics_CGImageProperties_get_Tiff:
 _p_273:
@@ -32394,7 +32394,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 7031
+.word 7040
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Gps
 plt_CoreGraphics_CGImageProperties_get_Gps:
 _p_274:
@@ -32402,7 +32402,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 7036
+.word 7045
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Iptc
 plt_CoreGraphics_CGImageProperties_get_Iptc:
 _p_275:
@@ -32410,7 +32410,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 7041
+.word 7050
 	.no_dead_strip plt_CoreGraphics_CGImageProperties_get_Jfif
 plt_CoreGraphics_CGImageProperties_get_Jfif:
 _p_276:
@@ -32418,7 +32418,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 7046
+.word 7055
 	.no_dead_strip plt_System_Console_WriteLine_object
 plt_System_Console_WriteLine_object:
 _p_277:
@@ -32426,7 +32426,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 7051
+.word 7060
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_278:
@@ -32434,7 +32434,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 7056
+.word 7065
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_279:
@@ -32442,7 +32442,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 7122
+.word 7131
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_280:
@@ -32450,7 +32450,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 7130
+.word 7139
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_281:
@@ -32458,7 +32458,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 7149
+.word 7158
 	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
 plt_System_Nullable_1_bool_Unbox_object:
 _p_282:
@@ -32466,7 +32466,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 7178
+.word 7187
 	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
 plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 _p_283:
@@ -32474,7 +32474,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 7200
+.word 7209
 	.no_dead_strip plt_bool_Equals_object
 plt_bool_Equals_object:
 _p_284:
@@ -32482,7 +32482,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 7222
+.word 7231
 	.no_dead_strip plt_bool_GetHashCode
 plt_bool_GetHashCode:
 _p_285:
@@ -32490,7 +32490,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 7227
+.word 7236
 	.no_dead_strip plt_bool_ToString
 plt_bool_ToString:
 _p_286:
@@ -32498,7 +32498,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 7232
+.word 7241
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_287:
@@ -32506,7 +32506,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 7237
+.word 7246
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object
 plt_System_Nullable_1_UIKit_UIDeviceOrientation_Unbox_object:
 _p_288:
@@ -32514,7 +32514,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 7259
+.word 7268
 	.no_dead_strip plt_System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation
 plt_System_Nullable_1_UIKit_UIDeviceOrientation_Equals_System_Nullable_1_UIKit_UIDeviceOrientation:
 _p_289:
@@ -32522,7 +32522,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 7280
+.word 7290
 	.no_dead_strip plt_long_GetHashCode
 plt_long_GetHashCode:
 _p_290:
@@ -32530,7 +32530,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 7301
+.word 7312
 	.no_dead_strip plt_System_Nullable_1_int_Unbox_object
 plt_System_Nullable_1_int_Unbox_object:
 _p_291:
@@ -32538,7 +32538,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 7306
+.word 7317
 	.no_dead_strip plt_System_Nullable_1_int_Equals_System_Nullable_1_int
 plt_System_Nullable_1_int_Equals_System_Nullable_1_int:
 _p_292:
@@ -32546,7 +32546,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 7328
+.word 7339
 	.no_dead_strip plt_int_Equals_object
 plt_int_Equals_object:
 _p_293:
@@ -32554,7 +32554,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 7350
+.word 7361
 	.no_dead_strip plt_int_GetHashCode
 plt_int_GetHashCode:
 _p_294:
@@ -32562,7 +32562,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 7355
+.word 7366
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_295:
@@ -32570,7 +32570,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 7360
+.word 7371
 	.no_dead_strip plt_System_Nullable_1_int__ctor_int
 plt_System_Nullable_1_int__ctor_int:
 _p_296:
@@ -32578,7 +32578,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 7365
+.word 7376
 	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object
 plt_System_Nullable_1_CoreImage_CIImageOrientation_Unbox_object:
 _p_297:
@@ -32586,7 +32586,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 7387
+.word 7398
 	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation
 plt_System_Nullable_1_CoreImage_CIImageOrientation_Equals_System_Nullable_1_CoreImage_CIImageOrientation:
 _p_298:
@@ -32594,7 +32594,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 7409
+.word 7420
 	.no_dead_strip plt_System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation
 plt_System_Nullable_1_CoreImage_CIImageOrientation__ctor_CoreImage_CIImageOrientation:
 _p_299:
@@ -32602,7 +32602,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 7431
+.word 7442
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_300:
@@ -32610,7 +32610,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 7481
+.word 7492
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_301:
@@ -32618,7 +32618,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 7489
+.word 7500
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_302:
@@ -32626,7 +32626,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 7515
+.word 7526
 	.no_dead_strip plt_System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow
 plt_System_Linq_OrderedEnumerable_2_UIKit_UIWindow_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_OrderedEnumerable_1_UIKit_UIWindow:
 _p_303:
@@ -32634,7 +32634,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 7538
+.word 7549
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_304:
@@ -32642,7 +32642,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 7580
+.word 7591
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_305:
@@ -32650,7 +32650,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 7627
+.word 7638
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_306:
@@ -32658,7 +32658,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 7635
+.word 7646
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_307:
@@ -32666,7 +32666,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 7643
+.word 7654
 	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
 plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_308:
@@ -32674,7 +32674,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 7651
+.word 7662
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_309:
@@ -32682,7 +32682,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 7656
+.word 7667
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_310:
@@ -32690,7 +32690,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 7661
+.word 7672
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_311:
@@ -32698,7 +32698,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 7695
+.word 7706
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext
 plt_Plugin_Media_MediaPickerDelegate__GetPictureMediaFiled__25_MoveNext:
 _p_312:
@@ -32706,7 +32706,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 7700
+.word 7711
 	.no_dead_strip plt_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext
 plt_Plugin_Media_MediaPickerDelegate__GetMovieMediaFiled__28_MoveNext:
 _p_313:
@@ -32714,7 +32714,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 7702
+.word 7713
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_314:
@@ -32722,7 +32722,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 7726
+.word 7737
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_315:
@@ -32730,7 +32730,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 7776
+.word 7787
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_316:
@@ -32738,7 +32738,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 7781
+.word 7792
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_317:
@@ -32746,7 +32746,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 7786
+.word 7797
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_318:
@@ -32754,7 +32754,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 7791
+.word 7802
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_319:
@@ -32762,7 +32762,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 7796
+.word 7807
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_320:
@@ -32770,7 +32770,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 7804
+.word 7815
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_321:
@@ -32778,7 +32778,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 7809
+.word 7820
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_322:
@@ -32786,7 +32786,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 7817
+.word 7828
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_323:
@@ -32794,7 +32794,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 7822
+.word 7833
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_324:
@@ -32802,7 +32802,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 7830
+.word 7841
 	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
 plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
 _p_325:
@@ -32810,7 +32810,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 7835
+.word 7846
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Foundation_NSUrl_UnsafeOnCompleted_System_Action:
 _p_326:
@@ -32818,7 +32818,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 7872
+.word 7883
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_327:
@@ -32826,7 +32826,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 7894
+.word 7905
 	.no_dead_strip plt_System_Linq_OrderedEnumerable_1_UIKit_UIWindow__ctor
 plt_System_Linq_OrderedEnumerable_1_UIKit_UIWindow__ctor:
 _p_328:
@@ -32834,7 +32834,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 7907
+.word 7918
 	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
 plt_System_Linq_Error_ArgumentNull_string:
 _p_329:
@@ -32842,7 +32842,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 7926
+.word 7937
 	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat_get_Default
 plt_System_Collections_Generic_Comparer_1_System_nfloat_get_Default:
 _p_330:
@@ -32850,7 +32850,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 7931
+.word 7942
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_331:
@@ -32858,7 +32858,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 7951
+.word 7962
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_332:
@@ -32866,7 +32866,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 7975
+.word 7986
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_333:
@@ -32874,7 +32874,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 7999
+.word 8010
 	.no_dead_strip plt_System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow
 plt_System_Linq_EnumerableSorter_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_EnumerableSorter_1_UIKit_UIWindow:
 _p_334:
@@ -32882,7 +32882,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 8004
+.word 8015
 	.no_dead_strip plt_System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow
 plt_System_Linq_CachingComparerWithChild_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool_System_Linq_CachingComparer_1_UIKit_UIWindow:
 _p_335:
@@ -32890,7 +32890,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 8027
+.word 8038
 	.no_dead_strip plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool
 plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat__ctor_System_Func_2_UIKit_UIWindow_System_nfloat_System_Collections_Generic_IComparer_1_System_nfloat_bool:
 _p_336:
@@ -32898,7 +32898,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 8050
+.word 8061
 	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
 plt_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer:
 _p_337:
@@ -32906,7 +32906,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 8073
+.word 8084
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_338:
@@ -32914,7 +32914,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 8093
+.word 8104
 	.no_dead_strip plt_System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor
 plt_System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor:
 _p_339:
@@ -32922,7 +32922,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 8098
+.word 8109
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_340:
@@ -32930,7 +32930,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 8118
+.word 8129
 	.no_dead_strip plt_System_nfloat_CompareTo_System_nfloat
 plt_System_nfloat_CompareTo_System_nfloat:
 _p_341:
@@ -32938,7 +32938,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 8123
+.word 8134
 	.no_dead_strip plt_System_Collections_Generic_Comparer_1_System_nfloat__ctor
 plt_System_Collections_Generic_Comparer_1_System_nfloat__ctor:
 _p_342:
@@ -32946,7 +32946,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 8128
+.word 8139
 	.no_dead_strip plt_System_Linq_EnumerableSorter_1_UIKit_UIWindow__ctor
 plt_System_Linq_EnumerableSorter_1_UIKit_UIWindow__ctor:
 _p_343:
@@ -32954,7 +32954,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 8156
+.word 8167
 	.no_dead_strip plt_System_Linq_CachingComparer_1_UIKit_UIWindow__ctor
 plt_System_Linq_CachingComparer_1_UIKit_UIWindow__ctor:
 _p_344:
@@ -32962,7 +32962,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 8183
+.word 8194
 	.no_dead_strip plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow
 plt_System_Linq_CachingComparer_2_UIKit_UIWindow_System_nfloat_SetElement_UIKit_UIWindow:
 _p_345:
@@ -32970,7 +32970,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 8202
+.word 8213
 	.no_dead_strip plt_System_Collections_Comparer_Compare_object_object
 plt_System_Collections_Comparer_Compare_object_object:
 _p_346:
@@ -32978,7 +32978,7 @@ adrp x16, mono_aot_Plugin_Media_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_Media_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 8225
+.word 8236
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -33090,13 +33090,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 424,6168,347,222,70,391195135,0,49174
-	.long 128,8,8,10,0,26,55536,6352
+	.long 424,6168,347,222,70,391195135,0,49193
+	.long 128,8,8,10,0,26,55552,6352
 	.long 5920,4664,0,5416,5872,4840,0,3672
 	.long 336,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 144,201,238,244,103,224,230,113,114,85,9,123,212,178,130,57
+	.byte 204,47,72,117,99,168,166,193,77,150,221,83,28,131,177,129
 	.globl _mono_aot_module_Plugin_Media_info
 	.align 3
 _mono_aot_module_Plugin_Media_info:
@@ -42816,13 +42816,13 @@ Lfde113_end:
 LTDIE_146:
 
 	.byte 5
-	.asciz "System_Func`1"
+	.asciz "System_Func`2"
 
 	.byte 112,16
 LDIFF_SYM1391=LTDIE_19 - Ldebug_info_start
 	.long LDIFF_SYM1391
 	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
+	.asciz "System_Func`2"
 
 LDIFF_SYM1392=LTDIE_146 - Ldebug_info_start
 	.long LDIFF_SYM1392
@@ -42837,11 +42837,11 @@ LTDIE_146_REFERENCE:
 LDIFF_SYM1394=LTDIE_146 - Ldebug_info_start
 	.long LDIFF_SYM1394
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<Plugin.Media.Abstractions.MediaFile>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Plugin.Media.Abstractions.MediaFile>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
 	.quad Lme_7b
 
 	.byte 2,118,16,3
@@ -42849,53 +42849,58 @@ LDIFF_SYM1394=LTDIE_146 - Ldebug_info_start
 
 LDIFF_SYM1395=LTDIE_146_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1395
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1396=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1396
 	.byte 1,106,11
 	.asciz "V_0"
-
-LDIFF_SYM1396=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1396
-	.byte 1,105,11
-	.asciz "V_1"
 
 LDIFF_SYM1397=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1397
 	.byte 1,104,11
-	.asciz "V_2"
+	.asciz "V_1"
 
-LDIFF_SYM1398=LTDIE_141_REFERENCE - Ldebug_info_start
+LDIFF_SYM1398=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1398
 	.byte 1,103,11
-	.asciz "V_3"
+	.asciz "V_2"
 
-LDIFF_SYM1399=LTDIE_19_REFERENCE - Ldebug_info_start
+LDIFF_SYM1399=LTDIE_141_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1399
 	.byte 1,102,11
-	.asciz "V_4"
+	.asciz "V_3"
 
-LDIFF_SYM1400=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1400=LTDIE_19_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1400
 	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1401=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1401
+	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1401=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1401
-	.byte 1,100,0
+LDIFF_SYM1402=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1402
+	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1402=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM1402
+LDIFF_SYM1403=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM1403
 Lfde114_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
 
-LDIFF_SYM1403=Lme_7b - wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
-	.long LDIFF_SYM1403
+LDIFF_SYM1404=Lme_7b - wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
+	.long LDIFF_SYM1404
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
 	.align 3
 Lfde114_end:
 
@@ -42903,75 +42908,70 @@ Lfde114_end:
 LTDIE_147:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1404=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1404
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1405=LTDIE_147 - Ldebug_info_start
+LDIFF_SYM1405=LTDIE_19 - Ldebug_info_start
 	.long LDIFF_SYM1405
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1406=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1406
 LTDIE_147_POINTER:
 
 	.byte 13
-LDIFF_SYM1406=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1407=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1407
 LTDIE_147_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1407=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1408=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1408
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Plugin.Media.Abstractions.MediaFile>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object"
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<Plugin.Media.Abstractions.MediaFile>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
 	.quad Lme_7c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1408=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1408
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1409=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1409=LTDIE_147_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1409
 	.byte 1,106,11
 	.asciz "V_0"
 
 LDIFF_SYM1410=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1410
-	.byte 1,104,11
+	.byte 1,105,11
 	.asciz "V_1"
 
 LDIFF_SYM1411=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1411
-	.byte 1,103,11
+	.byte 1,104,11
 	.asciz "V_2"
 
 LDIFF_SYM1412=LTDIE_141_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1412
-	.byte 1,102,11
+	.byte 1,103,11
 	.asciz "V_3"
 
 LDIFF_SYM1413=LTDIE_19_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1413
-	.byte 1,101,11
+	.byte 1,102,11
 	.asciz "V_4"
 
 LDIFF_SYM1414=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM1414
-	.byte 1,100,11
+	.byte 1,101,11
 	.asciz "V_5"
 
 LDIFF_SYM1415=LTDIE_87_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1415
-	.byte 1,99,0
+	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -42981,13 +42981,13 @@ Lfde115_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
 
-LDIFF_SYM1417=Lme_7c - wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile_invoke_TResult_T_object
+LDIFF_SYM1417=Lme_7c - wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke_TResult
 	.long LDIFF_SYM1417
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
 	.align 3
 Lfde115_end:
 
@@ -43378,13 +43378,13 @@ Lfde119_end:
 LTDIE_153:
 
 	.byte 5
-	.asciz "System_Func`1"
+	.asciz "System_Func`2"
 
 	.byte 112,16
 LDIFF_SYM1476=LTDIE_19 - Ldebug_info_start
 	.long LDIFF_SYM1476
 	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
+	.asciz "System_Func`2"
 
 LDIFF_SYM1477=LTDIE_153 - Ldebug_info_start
 	.long LDIFF_SYM1477
@@ -43399,11 +43399,11 @@ LTDIE_153_REFERENCE:
 LDIFF_SYM1479=LTDIE_153 - Ldebug_info_start
 	.long LDIFF_SYM1479
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 	.quad Lme_81
 
 	.byte 2,118,16,3
@@ -43411,53 +43411,58 @@ LDIFF_SYM1479=LTDIE_153 - Ldebug_info_start
 
 LDIFF_SYM1480=LTDIE_153_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1480
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1481=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1481
 	.byte 1,106,11
 	.asciz "V_0"
-
-LDIFF_SYM1481=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1481
-	.byte 1,105,11
-	.asciz "V_1"
 
 LDIFF_SYM1482=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1482
 	.byte 1,104,11
-	.asciz "V_2"
+	.asciz "V_1"
 
-LDIFF_SYM1483=LTDIE_141_REFERENCE - Ldebug_info_start
+LDIFF_SYM1483=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1483
 	.byte 1,103,11
-	.asciz "V_3"
+	.asciz "V_2"
 
-LDIFF_SYM1484=LTDIE_19_REFERENCE - Ldebug_info_start
+LDIFF_SYM1484=LTDIE_141_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1484
 	.byte 1,102,11
-	.asciz "V_4"
+	.asciz "V_3"
 
-LDIFF_SYM1485=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1485=LTDIE_19_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1485
 	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1486=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1486
+	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1486=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1486
-	.byte 1,100,0
+LDIFF_SYM1487=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1487
+	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1487=Lfde120_end - Lfde120_start
-	.long LDIFF_SYM1487
+LDIFF_SYM1488=Lfde120_end - Lfde120_start
+	.long LDIFF_SYM1488
 Lfde120_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 
-LDIFF_SYM1488=Lme_81 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
-	.long LDIFF_SYM1488
+LDIFF_SYM1489=Lme_81 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.long LDIFF_SYM1489
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
 	.align 3
 Lfde120_end:
 
@@ -43465,75 +43470,70 @@ Lfde120_end:
 LTDIE_154:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1489=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1489
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1490=LTDIE_154 - Ldebug_info_start
+LDIFF_SYM1490=LTDIE_19 - Ldebug_info_start
 	.long LDIFF_SYM1490
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1491=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1491
 LTDIE_154_POINTER:
 
 	.byte 13
-LDIFF_SYM1491=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1491
+LDIFF_SYM1492=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1492
 LTDIE_154_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1492=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1492
+LDIFF_SYM1493=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1493
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 	.quad Lme_82
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1493=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1493
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1494=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1494=LTDIE_154_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1494
 	.byte 1,106,11
 	.asciz "V_0"
 
 LDIFF_SYM1495=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1495
-	.byte 1,104,11
+	.byte 1,105,11
 	.asciz "V_1"
 
 LDIFF_SYM1496=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1496
-	.byte 1,103,11
+	.byte 1,104,11
 	.asciz "V_2"
 
 LDIFF_SYM1497=LTDIE_141_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1497
-	.byte 1,102,11
+	.byte 1,103,11
 	.asciz "V_3"
 
 LDIFF_SYM1498=LTDIE_19_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1498
-	.byte 1,101,11
+	.byte 1,102,11
 	.asciz "V_4"
 
 LDIFF_SYM1499=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM1499
-	.byte 1,100,11
+	.byte 1,101,11
 	.asciz "V_5"
 
 LDIFF_SYM1500=LTDIE_37_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1500
-	.byte 1,99,0
+	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -43543,13 +43543,13 @@ Lfde121_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 
-LDIFF_SYM1502=Lme_82 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+LDIFF_SYM1502=Lme_82 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 	.long LDIFF_SYM1502
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
 	.align 3
 Lfde121_end:
 
@@ -44989,13 +44989,13 @@ Lfde149_end:
 LTDIE_164:
 
 	.byte 5
-	.asciz "System_Func`1"
+	.asciz "System_Func`2"
 
 	.byte 112,16
 LDIFF_SYM1678=LTDIE_19 - Ldebug_info_start
 	.long LDIFF_SYM1678
 	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
+	.asciz "System_Func`2"
 
 LDIFF_SYM1679=LTDIE_164 - Ldebug_info_start
 	.long LDIFF_SYM1679
@@ -45010,11 +45010,11 @@ LTDIE_164_REFERENCE:
 LDIFF_SYM1681=LTDIE_164 - Ldebug_info_start
 	.long LDIFF_SYM1681
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<Foundation.NSUrl>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Foundation.NSUrl>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
 	.quad Lme_9f
 
 	.byte 2,118,16,3
@@ -45022,53 +45022,58 @@ LDIFF_SYM1681=LTDIE_164 - Ldebug_info_start
 
 LDIFF_SYM1682=LTDIE_164_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1682
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1683=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1683
 	.byte 1,106,11
 	.asciz "V_0"
-
-LDIFF_SYM1683=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1683
-	.byte 1,105,11
-	.asciz "V_1"
 
 LDIFF_SYM1684=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1684
 	.byte 1,104,11
-	.asciz "V_2"
+	.asciz "V_1"
 
-LDIFF_SYM1685=LTDIE_141_REFERENCE - Ldebug_info_start
+LDIFF_SYM1685=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1685
 	.byte 1,103,11
-	.asciz "V_3"
+	.asciz "V_2"
 
-LDIFF_SYM1686=LTDIE_19_REFERENCE - Ldebug_info_start
+LDIFF_SYM1686=LTDIE_141_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1686
 	.byte 1,102,11
-	.asciz "V_4"
+	.asciz "V_3"
 
-LDIFF_SYM1687=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1687=LTDIE_19_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1687
 	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1688=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1688
+	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1688=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1688
-	.byte 1,100,0
+LDIFF_SYM1689=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1689
+	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1689=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM1689
+LDIFF_SYM1690=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM1690
 Lfde150_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
 
-LDIFF_SYM1690=Lme_9f - wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
-	.long LDIFF_SYM1690
+LDIFF_SYM1691=Lme_9f - wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
+	.long LDIFF_SYM1691
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
 	.align 3
 Lfde150_end:
 
@@ -45076,75 +45081,70 @@ Lfde150_end:
 LTDIE_165:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1691=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM1691
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1692=LTDIE_165 - Ldebug_info_start
+LDIFF_SYM1692=LTDIE_19 - Ldebug_info_start
 	.long LDIFF_SYM1692
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1693=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1693
 LTDIE_165_POINTER:
 
 	.byte 13
-LDIFF_SYM1693=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1693
+LDIFF_SYM1694=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1694
 LTDIE_165_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1694=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1694
+LDIFF_SYM1695=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1695
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Foundation.NSUrl>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object"
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<Foundation.NSUrl>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
 	.quad Lme_a0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1695=LTDIE_165_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1695
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1696=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1696=LTDIE_165_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1696
 	.byte 1,106,11
 	.asciz "V_0"
 
 LDIFF_SYM1697=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1697
-	.byte 1,104,11
+	.byte 1,105,11
 	.asciz "V_1"
 
 LDIFF_SYM1698=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1698
-	.byte 1,103,11
+	.byte 1,104,11
 	.asciz "V_2"
 
 LDIFF_SYM1699=LTDIE_141_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1699
-	.byte 1,102,11
+	.byte 1,103,11
 	.asciz "V_3"
 
 LDIFF_SYM1700=LTDIE_19_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1700
-	.byte 1,101,11
+	.byte 1,102,11
 	.asciz "V_4"
 
 LDIFF_SYM1701=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM1701
-	.byte 1,100,11
+	.byte 1,101,11
 	.asciz "V_5"
 
 LDIFF_SYM1702=LTDIE_124_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1702
-	.byte 1,99,0
+	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -45154,13 +45154,13 @@ Lfde151_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
 
-LDIFF_SYM1704=Lme_a0 - wrapper_delegate_invoke_System_Func_2_object_Foundation_NSUrl_invoke_TResult_T_object
+LDIFF_SYM1704=Lme_a0 - wrapper_delegate_invoke_System_Func_1_Foundation_NSUrl_invoke_TResult
 	.long LDIFF_SYM1704
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
 	.align 3
 Lfde151_end:
 

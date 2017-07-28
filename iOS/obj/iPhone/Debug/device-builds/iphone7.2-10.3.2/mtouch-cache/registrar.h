@@ -11,12 +11,18 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import <QuartzCore/CAEmitterBehavior.h>
+#import <CoreLocation/CoreLocation.h>
+#import <CoreMotion/CoreMotion.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <CoreImage/CoreImage.h>
-#import <CloudKit/CloudKit.h>
 #import <Photos/Photos.h>
+#import <CloudKit/CloudKit.h>
+#import <Accounts/Accounts.h>
+#import <Speech/Speech.h>
 #import <GLKit/GLKit.h>
+#import <EventKit/EventKit.h>
 #import <AssetsLibrary/AssetsLibrary.h>
+#import <AVFoundation/AVFoundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 
 @protocol CALayerDelegate;
@@ -33,6 +39,7 @@
 @class UIKit_UIScrollView__UIScrollViewDelegate;
 @class UIKit_UITextView__UITextViewDelegate;
 @class UIKit_UIView_UIViewAppearance;
+@class CoreLocation_CLLocationManager__CLLocationManagerDelegate;
 @class GLKit_GLKView__GLKViewDelegate;
 @class __NSObject_Disposer;
 @class UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate;
@@ -49,6 +56,7 @@
 @class UIKit_UINavigationBar_UINavigationBarAppearance;
 @class UIKit_UIPopoverController__UIPopoverControllerDelegate;
 @class UIKit_UISearchBar__UISearchBarDelegate;
+@class UIKit_UIAlertView__UIAlertViewDelegate;
 @class UIKit_UIBarButtonItem_Callback;
 @class UIKit_UISplitViewController__UISplitViewControllerDelegate;
 @class UIKit_UITabBarController__UITabBarControllerDelegate;
@@ -121,7 +129,15 @@
 @class Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem;
 @class Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_DataSource;
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_SecondaryToolbar;
+@class Xamarin_Controls__MobileServices_ProgressLabel;
+@class Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDelegate;
+@class Xamarin_Auth__MobileServices_FormAuthenticatorController;
+@class Xamarin_Auth__MobileServices_WebAuthenticatorController_WebViewDelegate;
+@class Xamarin_Auth__MobileServices_WebAuthenticatorController;
+@class Xamarin_Auth__MobileServices_FormAuthenticatorController_FieldCell;
+@class Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDataSource;
 @class Plugin_Media_MediaPickerController;
 @class Plugin_Media_MediaPickerPopoverDelegate;
 @class Plugin_Media_MediaPickerDelegate;
+@class Plugin_Geolocator_GeolocationSingleUpdateDelegate;
 

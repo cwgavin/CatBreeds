@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using CatBreeds.DataModels;
 using Microsoft.WindowsAzure.MobileServices;
 using Xamarin.Forms;
 
-namespace CatBreeds.DataModels
+namespace CatBreeds
 {
     public partial class AzureTable : ContentPage
     {

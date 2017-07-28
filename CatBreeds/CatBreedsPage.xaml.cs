@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
@@ -9,6 +8,9 @@ using Plugin.Media;
 using Plugin.Media.Abstractions;
 using Tabs.Model;
 using Xamarin.Forms;
+using Plugin.Geolocator;
+using CatBreeds.DataModels;
+using System.Diagnostics;
 
 namespace CatBreeds
 {
@@ -19,12 +21,11 @@ namespace CatBreeds
             InitializeComponent();
         }
 
-        //async void OnButtonClicked(object sender, EventArgs args)
-        //{
-        //	Button button = (Button)sender;
-        //	await DisplayAlert("Clicked!", "The button labeled '" + button.Text + "' has been clicked", "OK");
-        //	await Navigation.PushModalAsync(new Grid1());
-        //}
+        async void OnButtonClicked(object sender, EventArgs args)
+        {
+        	Button button = (Button)sender;
+            await Navigation.PushModalAsync(new CatBreedsHistory());
+        }
 
         private async void TakePhoto(object s, EventArgs e)
         {
@@ -51,7 +52,8 @@ namespace CatBreeds
                     var stream = file.GetStream();
 					return stream;
 				});
-                result.Text = "Analyzing... Please wait";
+				result.Text = "Analyzing... Please wait";
+				await postLocationAsync();
 				await Analyze(file);
             }
             else {
@@ -72,7 +74,8 @@ namespace CatBreeds
 					var stream = file.GetStream();
 					return stream;
 				});
-				result.Text = "Analyzing... Please wait";
+                result.Text = "Analyzing... Please wait";
+                await postLocationAsync();
 				await Analyze(file);
 			}
 			else
@@ -87,8 +90,6 @@ namespace CatBreeds
             client.DefaultRequestHeaders.Add("Prediction-Key", "08af1588c4a6476ebc2d79588bbcdb24");
             string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/8f1d90ad-1cf2-49f0-b44e-29366efdcb0e/image";
 
-            HttpResponseMessage response;
-
             //byte[] byteData = GetImageAsByteArray(file);
 			var stream = file.GetStream();
 			var binaryReader = new BinaryReader(stream);
@@ -97,17 +98,15 @@ namespace CatBreeds
 
             using (var content = new ByteArrayContent(byteData))
             {
-
                 content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
-                response = await client.PostAsync(url, content);
-
+                var response = await client.PostAsync(url, content);
+               
                 if (response.IsSuccessStatusCode)
                 {
                     var responseString = await response.Content.ReadAsStringAsync();
                     EvaluationModel responseModel = JsonConvert.DeserializeObject<EvaluationModel>(responseString);
 
                     string resultText = "";
-                    //double max = responseModel.Predictions.Max(m => m.Probability);
                     foreach (var breed in responseModel.Predictions){
                         double prob = breed.Probability >= 0.0001 ? breed.Probability : 0;
                         resultText += breed.Tag + ": " + Math.Round(prob * 100, 2) + "%\n";
@@ -117,14 +116,29 @@ namespace CatBreeds
                 file.Dispose();
             }
         }
+		async Task postLocationAsync()
+		{
+            try
+            {
+                var locator = CrossGeolocator.Current;
+                locator.DesiredAccuracy = 50;
 
-		//static byte[] GetImageAsByteArray(MediaFile file)
-		//{
-		//	var stream = file.GetStream();
-		//	var binaryReader = new BinaryReader(stream);
-  //          var length = (int)stream.Length;
-		//	return binaryReader.ReadBytes(length);
-		//}
+                var position = await locator.GetPositionAsync(timeout: TimeSpan.FromSeconds(1));
+
+                CatBreedsModel model = new CatBreedsModel()
+                {
+                    Longitude = (float)position.Longitude,
+                    Latitude = (float)position.Latitude
+                };
+
+                await AzureManager.AzureManagerInstance.PostCatBreedsInformation(model);
+                //await DisplayAlert("Pushed", "Data Pushed", "OK");
+            }
+			catch (Exception ex)
+			{
+				Debug.WriteLine("Unable to get location, may need to increase timeout: " + ex);
+			}
+		}
 
     }
 }

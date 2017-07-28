@@ -25,3 +25,17 @@
 /Users/gavincheng/Projects/CatBreeds/CatBreeds/obj/Debug/CatBreeds.pdb
 /Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/Newtonsoft.Json.dll
 /Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/Newtonsoft.Json.xml
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/CatBreeds.dll.config
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/Microsoft.WindowsAzure.Mobile.dll
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/Plugin.Geolocator.Abstractions.dll
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/Plugin.Geolocator.dll
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/System.Net.Http.Extensions.dll
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/System.Net.Http.Primitives.dll
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/System.Net.Http.Extensions.xml
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/System.Net.Http.Primitives.xml
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/Microsoft.WindowsAzure.Mobile.xml
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/Plugin.Geolocator.Abstractions.pdb
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/Plugin.Geolocator.pdb
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/bin/Debug/Plugin.Geolocator.xml
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/obj/Debug/CatBreeds.csproj.App.config
+/Users/gavincheng/Projects/CatBreeds/CatBreeds/obj/Debug/CatBreeds.CatBreedsHistory.xaml.g.cs

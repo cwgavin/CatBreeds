@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{1D05A872-C20F-4CFC-BB90-2704FE6A0D6E}|Default">
-  <MonoDevelop.Ide.ItemProperties.CatBreeds.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.48fef4516bc90c5cf42ee0680e3d6a8288495ad5" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CatBreeds/CatBreedsPage.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.CatBreeds.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3C8616CD-7E56-4936-8369-FF309B08D84F" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CatBreeds/CatBreedsHistory.xaml">
     <Files>
-      <File FileName="CatBreeds/CatBreedsPage.xaml" Line="10" Column="55" />
-      <File FileName="CatBreeds/CatBreedsPage.xaml.cs" Line="48" Column="5" />
-      <File FileName="CatBreeds/Model/EvaluationModel.cs" Line="12" Column="52" />
+      <File FileName="CatBreeds/CatBreedsPage.xaml" Line="4" Column="42" />
+      <File FileName="CatBreeds/CatBreedsPage.xaml.cs" Line="131" Column="56" />
+      <File FileName="CatBreeds/CatBreedsHistory.xaml" Line="18" Column="67" />
+      <File FileName="CatBreeds/CatBreedsHistory.xaml.cs" Line="23" Column="93" />
+      <File FileName="CatBreeds/DataModels/AzureManager.cs" Line="4" Column="1" />
+      <File FileName="CatBreeds/DataModels/CatBreedsModel.cs" Line="9" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
